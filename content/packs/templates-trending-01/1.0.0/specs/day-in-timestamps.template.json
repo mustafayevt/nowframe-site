@@ -1,0 +1,58 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "day-in-timestamps",
+  "name": "Day in timestamps",
+  "description": "A day-in-my-life vlog told by the clock: each moment gets a typed time chip with a pop and a short caption, quick double cuts between, slides on the bigger moves, a held night shot.",
+  "category": "vlog",
+  "tags": ["beatsync", "vlog"],
+  "pro": false,
+  "canvas": "9:16",
+  "bpm": 139.9,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "sky",
+  "look": {"filter": "nowframe.filter.warm", "amount": 30, "grain": 6, "fade": 6},
+  "music": {"track": "nowframe.music.holiznacc0-birds", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Day in timestamps", "kicker": "A day, by the clock"},
+  "sections": [
+    { "id": "day", "slots": [
+        {"id": "wake", "label": "Wake up", "beats": 3, "min": 0.7, "max": 2.58, "sample": "home", "motion": "push"},
+        {"id": "coffee", "label": "Coffee", "beats": 3, "min": 0.7, "max": 2.58, "sample": "food", "motion": "punch"},
+        {"id": "ready", "label": "Getting ready", "beats": 1, "min": 0.3, "max": 1.2, "sample": "home", "motion": "punch"},
+        {"id": "door", "label": "Out the door", "beats": 1, "min": 0.3, "max": 1.2, "sample": "city", "motion": "right"},
+        {"id": "commute", "label": "Commute", "beats": 3, "min": 0.7, "max": 2.58, "sample": "city", "motion": "right", "cut": {"transition": "nowframe.transition.slide-left", "beats": 0.75}},
+        {"id": "work", "label": "Work", "beats": 3, "min": 0.7, "max": 2.58, "sample": "texture", "motion": "push"},
+        {"id": "lunch", "label": "Lunch", "beats": 3, "min": 0.7, "max": 2.58, "sample": "food", "motion": "punch", "cut": {"transition": "nowframe.transition.slide-left", "beats": 0.75}},
+        {"id": "golden", "label": "Golden hour", "beats": 3, "min": 0.7, "max": 2.58, "sample": "nature", "motion": "left"},
+        {"id": "night", "label": "Night", "beats": 6, "min": 1.41, "max": 5.15, "hold": true, "sample": "night", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "zoompulse", "anchor": "beat", "every": 4, "offset": 2, "seconds": 0.2, "from": "wake", "through": "golden"}
+  ],
+  "texts": [
+    {"text": "7:00 AM", "label": "Time 1", "style": "label.chip", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 54, "slot": "wake", "y": -0.31},
+    {"text": "Slow start", "label": "Caption 1", "style": "caption.chip", "animation": "words", "inSeconds": 0.45, "outSeconds": 0.2, "slot": "wake", "at": 0.5, "y": -0.23},
+    {"text": "7:20 AM", "label": "Time 2", "style": "label.chip", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 54, "slot": "coffee", "through": "door", "y": -0.31},
+    {"text": "Coffee first, always", "label": "Caption 2", "style": "caption.chip", "animation": "words", "inSeconds": 0.45, "outSeconds": 0.2, "slot": "coffee", "at": 0.5, "through": "door", "y": -0.23},
+    {"text": "8:45 AM", "label": "Time 3", "style": "label.chip", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 54, "slot": "commute", "y": -0.31},
+    {"text": "Walk to the studio", "label": "Caption 3", "style": "caption.chip", "animation": "words", "inSeconds": 0.45, "outSeconds": 0.2, "slot": "commute", "at": 0.5, "y": -0.23},
+    {"text": "10:30 AM", "label": "Time 4", "style": "label.chip", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 54, "slot": "work", "y": -0.31},
+    {"text": "Heads down", "label": "Caption 4", "style": "caption.chip", "animation": "words", "inSeconds": 0.45, "outSeconds": 0.2, "slot": "work", "at": 0.5, "y": -0.23},
+    {"text": "1:15 PM", "label": "Time 5", "style": "label.chip", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 54, "slot": "lunch", "y": -0.31},
+    {"text": "Lunch by the window", "label": "Caption 5", "style": "caption.chip", "animation": "words", "inSeconds": 0.45, "outSeconds": 0.2, "slot": "lunch", "at": 0.5, "y": -0.23},
+    {"text": "6:40 PM", "label": "Time 6", "style": "label.chip", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 54, "slot": "golden", "y": -0.31},
+    {"text": "Walk home the long way", "label": "Caption 6", "style": "caption.chip", "animation": "words", "inSeconds": 0.45, "outSeconds": 0.2, "slot": "golden", "at": 0.5, "y": -0.23},
+    {"text": "11:00 PM", "label": "Time 7", "style": "label.chip", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 54, "slot": "night", "y": -0.31},
+    {"text": "Lights out", "label": "Caption 7", "style": "caption.chip", "animation": "words", "slot": "night", "at": 1, "beats": 5, "y": -0.23}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.pop", "slot": "wake", "at": 0, "gain": 0.2},
+    {"sound": "nowframe.sound.pop", "slot": "coffee", "at": 0, "gain": 0.2},
+    {"sound": "nowframe.sound.pop", "slot": "commute", "at": 0, "gain": 0.2},
+    {"sound": "nowframe.sound.pop", "slot": "work", "at": 0, "gain": 0.2},
+    {"sound": "nowframe.sound.pop", "slot": "lunch", "at": 0, "gain": 0.2},
+    {"sound": "nowframe.sound.pop", "slot": "golden", "at": 0, "gain": 0.2},
+    {"sound": "nowframe.sound.pop", "slot": "night", "at": 0, "gain": 0.2}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "Trending 1",
+  "version": "1.0.0",
+  "minAppBuild": 9,
+  "categories": [
+    { "id": "food", "displayName": "Food" },
+    { "id": "pets", "displayName": "Pets" },
+    { "id": "fitness", "displayName": "Fitness" },
+    { "id": "city", "displayName": "City" },
+    { "id": "makeover", "displayName": "Before and after" }
+  ],
+  "order": [
+    "build-and-drop", "four-up-dump", "split-reveal", "day-in-timestamps", "whip-atlas", "room-reset",
+    "product-drop", "storytime-beats", "twelve-months", "fast-recipe", "night-drive", "zoomies",
+    "passport-stamps", "double-time-dump", "pov-caption", "unboxing-in-five", "month-in-numbers", "suspect-profile",
+    "city-pulse", "run-log", "morning-session", "todays-list", "week-by-week", "cafe-crawl",
+    "beat-photo-dump", "month-in-lines"
+  ]
+}

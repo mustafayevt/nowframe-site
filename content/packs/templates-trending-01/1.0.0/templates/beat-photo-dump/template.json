@@ -1,0 +1,53 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.2,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 1,
+      "offset" : 0,
+      "throughSlot" : 12
+    },
+    {
+      "anchor" : "cut",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.flash",
+      "every" : 4,
+      "fromSlot" : 1,
+      "offset" : 3,
+      "throughSlot" : 12
+    }
+  ],
+  "bpm" : 124,
+  "clipSlotCount" : 14,
+  "contentHash" : "76e4259f373b6c1ed06650a9a91f9037908a23854f6df2545edf457ad0b2d760",
+  "createdAt" : 1767225600000,
+  "duration" : 9.67,
+  "id" : "nowframe.template.beat-photo-dump",
+  "isFlexible" : true,
+  "isMusicReplaceable" : true,
+  "isPremium" : false,
+  "isStarter" : true,
+  "mediaBytes" : 842065,
+  "minAppBuild" : 9,
+  "name" : "Beat photo dump",
+  "requires" : [
+    "effect.flash",
+    "effect.zoompulse",
+    "filter.vivid",
+    "template.beatFit",
+    "textanim.in.popLetters",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord",
+    "transition.flash"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 18,
+  "tags" : [
+    "beatsync",
+    "photodump"
+  ],
+  "theme" : "recap"
+}

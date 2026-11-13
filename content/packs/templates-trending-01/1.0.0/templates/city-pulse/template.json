@@ -1,0 +1,60 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.25,
+      "effectID" : "nowframe.fx.camerashake",
+      "every" : 4,
+      "fromSlot" : 1,
+      "offset" : 0,
+      "throughSlot" : 6
+    },
+    {
+      "anchor" : "beat",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 1,
+      "offset" : 1,
+      "throughSlot" : 6
+    },
+    {
+      "anchor" : "cut",
+      "duration" : 0.1,
+      "effectID" : "nowframe.fx.flash",
+      "every" : 1,
+      "fromSlot" : 7,
+      "offset" : 0,
+      "throughSlot" : 10
+    }
+  ],
+  "bpm" : 149.6,
+  "clipSlotCount" : 12,
+  "contentHash" : "6935caa9476d4f35908eee7cda73a8c8c82844b64b80a2a6d4d78bcb101acdb2",
+  "createdAt" : 1767225600000,
+  "duration" : 10.428333333333333,
+  "id" : "nowframe.template.city-pulse",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 805952,
+  "minAppBuild" : 9,
+  "name" : "City pulse",
+  "requires" : [
+    "effect.camerashake",
+    "effect.flash",
+    "effect.zoompulse",
+    "filter.mono-hi",
+    "template.beatFit",
+    "textanim.in.typewriter",
+    "textanim.in.zoomWords"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 16,
+  "tags" : [
+    "beatsync"
+  ],
+  "theme" : "city"
+}

@@ -1,0 +1,53 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "cut",
+      "duration" : 0.1,
+      "effectID" : "nowframe.fx.flash",
+      "every" : 3,
+      "fromSlot" : 0,
+      "offset" : 2,
+      "throughSlot" : 11
+    },
+    {
+      "anchor" : "beat",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 0,
+      "offset" : 1,
+      "throughSlot" : 11
+    }
+  ],
+  "bpm" : 137.4,
+  "clipSlotCount" : 12,
+  "contentHash" : "dd0b620d9722f3454ad038a0a2af33848f3ee1a53eadb7424ded11cfc520b0f6",
+  "createdAt" : 1767225600000,
+  "duration" : 11.353333333333333,
+  "id" : "nowframe.template.twelve-months",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 771079,
+  "minAppBuild" : 9,
+  "name" : "Twelve months",
+  "requires" : [
+    "effect.flash",
+    "effect.zoompulse",
+    "filter.snapshot",
+    "template.beatFit",
+    "textanim.in.typewriter",
+    "textanim.in.zoomWords",
+    "transition.whip-pan"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 15,
+  "tags" : [
+    "beatsync",
+    "recap",
+    "photodump"
+  ],
+  "theme" : "recap"
+}

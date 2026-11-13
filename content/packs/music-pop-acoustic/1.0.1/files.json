@@ -1,0 +1,91 @@
+{
+  "files": [
+    {
+      "bytes": 1788,
+      "path": "LICENSES.md",
+      "sha256": "2374a0298e473fce0de2da2a8f93f2fb30c55ec15a25ee319cbf532b1ae07425"
+    },
+    {
+      "bytes": 7724,
+      "path": "manifest.json",
+      "sha256": "a113146f3f026a7a78b9383af9fd332e9b3ce66ba7073a2d061b639970a4a1ec"
+    },
+    {
+      "bytes": 1979,
+      "path": "tracks/amarent-stairwell-harmony.beats.json",
+      "sha256": "8b61406b17da87e0615cd3f8231ccba0c06dd42423cc4524e4b58351586c12a5"
+    },
+    {
+      "bytes": 2419390,
+      "lazy": true,
+      "path": "tracks/amarent-stairwell-harmony.m4a",
+      "sha256": "485c61854fa88276f47eae10226d151b71a714bd25a9be8083a0e96bb6c37882"
+    },
+    {
+      "bytes": 2602,
+      "path": "tracks/art-flower-art-flower-daisy-flower.beats.json",
+      "sha256": "8787aab9373449b81fa3b39f7504cdedb1c8dd8e9dff6676de3d1dc5e9c1db16"
+    },
+    {
+      "bytes": 3638308,
+      "lazy": true,
+      "path": "tracks/art-flower-art-flower-daisy-flower.m4a",
+      "sha256": "4a555fcf58e180459f9d46407749a0958d0663eef81b15a49ee04d0c55758c19"
+    },
+    {
+      "bytes": 3962,
+      "path": "tracks/art-flower-art-flower-dancing-bee.beats.json",
+      "sha256": "e7ae9168138e48ace2b697a8ddc92f4cc5c396e6775e49b42985f7a9c5fd271a"
+    },
+    {
+      "bytes": 3638343,
+      "lazy": true,
+      "path": "tracks/art-flower-art-flower-dancing-bee.m4a",
+      "sha256": "d7b1186c253284bc53fdc6dd469180448492484e4df8be94f427efe653675d55"
+    },
+    {
+      "bytes": 2726,
+      "path": "tracks/holiznacc0-funky-pop.beats.json",
+      "sha256": "b14f5fd2c9a3f99836859d62953ff8b8a3cdefb51429a0920052383641c56706"
+    },
+    {
+      "bytes": 2884780,
+      "lazy": true,
+      "path": "tracks/holiznacc0-funky-pop.m4a",
+      "sha256": "87b197aba32dd7512f3c7377abd0d3862e0451e511770f241d2bfea3e4237670"
+    },
+    {
+      "bytes": 2940,
+      "path": "tracks/holiznacc0-happy-dance.beats.json",
+      "sha256": "f6b75236e565da89427b11b958265d57d751a9f8619577ebc4edbfb7f29ff819"
+    },
+    {
+      "bytes": 3153422,
+      "lazy": true,
+      "path": "tracks/holiznacc0-happy-dance.m4a",
+      "sha256": "0b6df74cf67287f806e166d1ca83f0ec7dd33e7084e17eda11d8cecc6311d338"
+    },
+    {
+      "bytes": 2536,
+      "path": "tracks/mr-smith-pequenas-guitarras.beats.json",
+      "sha256": "2cc26b4f6927de7469a29e4b965121e7c5d88071b30d8b87a8f507a5ba326a7b"
+    },
+    {
+      "bytes": 2884849,
+      "lazy": true,
+      "path": "tracks/mr-smith-pequenas-guitarras.m4a",
+      "sha256": "ccaf69d615ffc5ebc0acb53b1ab76274c5794c17d428757031a5081457069280"
+    },
+    {
+      "bytes": 2206,
+      "path": "tracks/ondrosik-sunlit-groove.beats.json",
+      "sha256": "a6ffaeb75b011ae97be9561dd61102e735cfb6273468380201a7e5456969e0cf"
+    },
+    {
+      "bytes": 2298166,
+      "lazy": true,
+      "path": "tracks/ondrosik-sunlit-groove.m4a",
+      "sha256": "2e1a57e5b31d0c295caa15f1a86ae275437500a3d01abecde5486609718ee33f"
+    }
+  ]
+}

@@ -1,7 +1,113 @@
 {
-  "generatedAt": "2026-11-12T23:50:30Z",
+  "generatedAt": "2026-11-13T01:46:41Z",
   "minAppBuild": 1,
-  "packs": [],
-  "trending": [],
-  "version": 1
+  "packs": [
+    {
+      "bytes": 23778618,
+      "id": "music-cinematic-ambient",
+      "kind": "music",
+      "minAppBuild": 1,
+      "requires": [],
+      "sha256": "95cebb2000907a15f7940228a80a3a6eeb2e128f438c87bfe3f9e2daf0eeec89",
+      "url": "packs/music-cinematic-ambient/1.0.1/files.json",
+      "version": "1.0.1"
+    },
+    {
+      "bytes": 16031706,
+      "id": "music-funk",
+      "kind": "music",
+      "minAppBuild": 1,
+      "requires": [],
+      "sha256": "a0729f02700ea092df8af11c2f25ed2ae93e0836ca9483ba6ca85b01107966f0",
+      "url": "packs/music-funk/1.0.1/files.json",
+      "version": "1.0.1"
+    },
+    {
+      "bytes": 23154771,
+      "id": "music-hiphop-phonk",
+      "kind": "music",
+      "minAppBuild": 1,
+      "requires": [],
+      "sha256": "b98b0925c2cd0c11836d8e4ac7d77f7e875eeeae94a8b3e0c689f338f74eb023",
+      "url": "packs/music-hiphop-phonk/1.0.1/files.json",
+      "version": "1.0.1"
+    },
+    {
+      "bytes": 15965984,
+      "id": "music-house",
+      "kind": "music",
+      "minAppBuild": 1,
+      "requires": [],
+      "sha256": "79013303efce800cb7da2689f84580e5011662054bffbb5733edf55b80aa8f94",
+      "url": "packs/music-house/1.0.1/files.json",
+      "version": "1.0.1"
+    },
+    {
+      "bytes": 15589403,
+      "id": "music-lofi",
+      "kind": "music",
+      "minAppBuild": 1,
+      "requires": [],
+      "sha256": "918dbc74e8ec83b61c7042f322cb798ee8478afbc4f6e2ab6e6fe9c6870de3e5",
+      "url": "packs/music-lofi/1.0.1/files.json",
+      "version": "1.0.1"
+    },
+    {
+      "bytes": 20945721,
+      "id": "music-pop-acoustic",
+      "kind": "music",
+      "minAppBuild": 1,
+      "requires": [],
+      "sha256": "d49ba3977c72000e7ef8f5ce31a10c3bd57ffe8eac1d1c304dcd67fa8a8810c7",
+      "url": "packs/music-pop-acoustic/1.0.1/files.json",
+      "version": "1.0.1"
+    },
+    {
+      "bytes": 55405579,
+      "id": "templates-trending-01",
+      "kind": "templates",
+      "minAppBuild": 9,
+      "requires": [
+        "template.beatFit"
+      ],
+      "sha256": "9a7fb5af9fd33a927ba8c48f55f21c0ba52cfe807f517c3cb530d355754aee2d",
+      "url": "packs/templates-trending-01/1.0.0/files.json",
+      "version": "1.0.0"
+    }
+  ],
+  "trending": [
+    "nowframe.template.build-and-drop",
+    "nowframe.template.four-up-dump",
+    "nowframe.template.split-reveal",
+    "nowframe.template.day-in-timestamps",
+    "nowframe.template.whip-atlas",
+    "nowframe.template.room-reset",
+    "nowframe.template.product-drop",
+    "nowframe.template.storytime-beats",
+    "nowframe.template.twelve-months",
+    "nowframe.template.fast-recipe",
+    "nowframe.template.night-drive",
+    "nowframe.template.zoomies",
+    "nowframe.template.passport-stamps",
+    "nowframe.template.double-time-dump",
+    "nowframe.template.pov-caption",
+    "nowframe.template.unboxing-in-five",
+    "nowframe.template.month-in-numbers",
+    "nowframe.template.suspect-profile",
+    "nowframe.template.city-pulse",
+    "nowframe.template.run-log",
+    "nowframe.template.morning-session",
+    "nowframe.template.todays-list",
+    "nowframe.template.week-by-week",
+    "nowframe.template.cafe-crawl",
+    "nowframe.template.beat-photo-dump",
+    "nowframe.template.month-in-lines",
+    "nowframe.template.photo-slideshow",
+    "nowframe.template.trip-recap",
+    "nowframe.template.day-in-life",
+    "nowframe.template.year-in-review",
+    "nowframe.template.product-reveal",
+    "nowframe.template.birthday-bash"
+  ],
+  "version": 5
 }

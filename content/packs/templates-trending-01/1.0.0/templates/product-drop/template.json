@@ -1,0 +1,56 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "cut",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.channelsplit",
+      "every" : 1,
+      "fromSlot" : 0,
+      "offset" : 0,
+      "throughSlot" : 2
+    },
+    {
+      "anchor" : "beat",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 4,
+      "offset" : 0,
+      "throughSlot" : 7
+    }
+  ],
+  "bpm" : 79.9,
+  "clipSlotCount" : 8,
+  "contentHash" : "0532264bedb2a082d7aee62781b450dade114b83cec5549fadd1114afe3cabc3",
+  "createdAt" : 1767225600000,
+  "duration" : 11.266666666666667,
+  "id" : "nowframe.template.product-drop",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 849502,
+  "minAppBuild" : 9,
+  "name" : "Product drop",
+  "requires" : [
+    "effect.channelsplit",
+    "effect.zoompulse",
+    "filter.noir-blue",
+    "template.beatFit",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord",
+    "textanim.in.zoomWords",
+    "transition.flash",
+    "transition.punch-in",
+    "transition.rgb-smash",
+    "transition.zoom-blur"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 17,
+  "tags" : [
+    "beatsync",
+    "product"
+  ],
+  "theme" : "product"
+}

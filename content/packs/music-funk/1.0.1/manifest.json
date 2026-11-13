@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "music-funk",
+  "kind": "sound",
+  "version": "1.0.1",
+  "displayName": "Funk and retro music",
+  "premium": false,
+  "categories": [
+    {
+      "id": "funk-retro",
+      "displayName": "Funk and retro"
+    }
+  ],
+  "items": [
+    {
+      "id": "nowframe.music.holiznacc0-lost-in-the-rythm",
+      "displayName": "Lost In The Rythm",
+      "category": "funk-retro",
+      "asset": "tracks/holiznacc0-lost-in-the-rythm.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Funk / Disco",
+        "mood": "funk-retro",
+        "bpm": "105.1",
+        "duration": "160",
+        "previewStart": "114.3",
+        "sourceTitle": "Lost In The Rythm",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/lost/lost-in-the-rythm/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-lost-in-the-rythm.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Lost In The Rythm” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/lost/lost-in-the-rythm/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-make-funk",
+      "displayName": "Make Funk",
+      "category": "funk-retro",
+      "asset": "tracks/holiznacc0-make-funk.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Funk / Disco",
+        "mood": "funk-retro",
+        "bpm": "99",
+        "duration": "163",
+        "previewStart": "105.1",
+        "sourceTitle": "Make Funk",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/bassic/make-funk/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-make-funk.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Make Funk” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/bassic/make-funk/"
+      }
+    },
+    {
+      "id": "nowframe.music.trg-banks-night-sun",
+      "displayName": "Night Sun",
+      "category": "funk-retro",
+      "asset": "tracks/trg-banks-night-sun.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "TRG Banks",
+        "genre": "Funk / Disco",
+        "mood": "funk-retro",
+        "bpm": "122",
+        "duration": "169.4",
+        "previewStart": "110",
+        "sourceTitle": "Night Sun",
+        "sourceURL": "https://freemusicarchive.org/music/TRG_Banks/Return_to_Dreamland/Night_Sun/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/trg-banks-night-sun.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Night Sun” by TRG Banks, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/TRG_Banks/Return_to_Dreamland/Night_Sun/"
+      }
+    },
+    {
+      "id": "nowframe.music.wax-lyricist-the-brass-brigade",
+      "displayName": "The Brass Brigade",
+      "category": "funk-retro",
+      "asset": "tracks/wax-lyricist-the-brass-brigade.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Wax Lyricist",
+        "genre": "Funk / Disco",
+        "mood": "funk-retro",
+        "bpm": "94",
+        "duration": "159.1",
+        "previewStart": "123.3",
+        "sourceTitle": "The Brass Brigade",
+        "sourceURL": "https://freemusicarchive.org/music/wax-lyricist/the-wax-lyricist/the-brass-brigade/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/wax-lyricist-the-brass-brigade.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“The Brass Brigade” by Wax Lyricist, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/wax-lyricist/the-wax-lyricist/the-brass-brigade/"
+      }
+    },
+    {
+      "id": "nowframe.music.zane-little-empty-stretch",
+      "displayName": "Empty Stretch",
+      "category": "funk-retro",
+      "asset": "tracks/zane-little-empty-stretch.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Zane Little",
+        "genre": "Funk / Disco",
+        "mood": "funk-retro",
+        "bpm": "125",
+        "duration": "140.8",
+        "previewStart": "55.7",
+        "sourceTitle": "Empty Stretch",
+        "sourceURL": "https://freemusicarchive.org/music/zane-little/new-peach-radio/empty-stretch/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/zane-little-empty-stretch.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Empty Stretch” by Zane Little, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/zane-little/new-peach-radio/empty-stretch/"
+      }
+    }
+  ],
+  "_contentHash": "815ea0e1e1b970ad3d515ce5823cb14393d8e85c37ab66481ee5f199520c1484"
+}

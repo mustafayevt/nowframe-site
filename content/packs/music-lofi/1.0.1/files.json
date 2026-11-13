@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "bytes": 1523,
+      "path": "LICENSES.md",
+      "sha256": "5409a10c3ef3c7559e4d4aeb337ce3d6501e0fa0715c42a3ffd074c8a148cc14"
+    },
+    {
+      "bytes": 5587,
+      "path": "manifest.json",
+      "sha256": "0906c65f3c385d0c667be31850a3d9c05b5f347ee056a715fee1ddc4c48cecf7"
+    },
+    {
+      "bytes": 3592,
+      "path": "tracks/holiznacc0-birds.beats.json",
+      "sha256": "c37f831736e4aa9f5db3309384dccf8b63463bbca97b430a0e11489363500344"
+    },
+    {
+      "bytes": 3428053,
+      "lazy": true,
+      "path": "tracks/holiznacc0-birds.m4a",
+      "sha256": "30ae1892c4a36fdd7fe1834bc912eddc29d57e024e65f2fbc08459daf4ddbc35"
+    },
+    {
+      "bytes": 1887,
+      "path": "tracks/holiznacc0-doodles.beats.json",
+      "sha256": "e3a09d58b5c99944e5ddbad4db7a0526b5f9f663152d1f11a3462e63656061cb"
+    },
+    {
+      "bytes": 2796030,
+      "lazy": true,
+      "path": "tracks/holiznacc0-doodles.m4a",
+      "sha256": "fae1a47a9254dbef0d741ab519444b11213afa32bd4ffc1a1fc7d0a203fcff4f"
+    },
+    {
+      "bytes": 3352,
+      "path": "tracks/holiznacc0-lucid.beats.json",
+      "sha256": "8ab6e61c0a3b9cf73c638110b512d3c061e50b167333038a4a89a3f2e33389d4"
+    },
+    {
+      "bytes": 2927823,
+      "lazy": true,
+      "path": "tracks/holiznacc0-lucid.m4a",
+      "sha256": "e46c3f8cbcc902b3303b53170d84bd8ad5f80b59cf1554e1894cc80592a681f8"
+    },
+    {
+      "bytes": 2257,
+      "path": "tracks/holiznacc0-summer-break.beats.json",
+      "sha256": "661ea5bb1fdaf029e67b8a6e8f6a84d190dc12a6c46aa58b8fc0a61f612686c5"
+    },
+    {
+      "bytes": 3516731,
+      "lazy": true,
+      "path": "tracks/holiznacc0-summer-break.m4a",
+      "sha256": "db2b43fb9fe1f3cb252d4193ad521b87da9ef3dffec97532a64acd2c8ff0508a"
+    },
+    {
+      "bytes": 2086,
+      "path": "tracks/holiznacc0-tetrapod.beats.json",
+      "sha256": "dd2a3aabaf7ad31b73c735b42b7836122ef644f907c2292f7a36f65fb50887d6"
+    },
+    {
+      "bytes": 2900482,
+      "lazy": true,
+      "path": "tracks/holiznacc0-tetrapod.m4a",
+      "sha256": "1fb42a97c0ea66c07160dc2b0a04fae33ba00fee90520408ac014c160647d647"
+    }
+  ]
+}

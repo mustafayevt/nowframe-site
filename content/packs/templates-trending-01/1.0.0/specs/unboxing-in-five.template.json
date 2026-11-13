@@ -1,0 +1,54 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "unboxing-in-five",
+  "name": "Unboxing in five",
+  "description": "A square unboxing in five numbered steps: each step is a flat colour card with a popping number and a typed step name, then the clip, with cards sliding up over the footage on the beat.",
+  "category": "product",
+  "tags": ["beatsync", "product"],
+  "pro": false,
+  "canvas": "1:1",
+  "bpm": 122.2,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "tungsten",
+  "look": {"filter": "nowframe.filter.vivid", "amount": 25},
+  "music": {"track": "nowframe.music.holiznacc0-funky-pop", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Unboxing in five", "kicker": "Five steps"},
+  "sections": [
+    { "id": "steps", "slots": [
+        {"id": "card-1", "card": "tungsten", "beats": 2},
+        {"id": "step-1", "label": "Step 1", "beats": 2, "min": 0.54, "max": 1.97, "sample": "product", "motion": "punch", "cut": {"transition": "nowframe.transition.slide-up", "beats": 0.5}},
+        {"id": "card-2", "card": "sky", "beats": 2},
+        {"id": "step-2", "label": "Step 2", "beats": 2, "min": 0.54, "max": 1.97, "sample": "product", "motion": "punch", "cut": {"transition": "nowframe.transition.slide-up", "beats": 0.5}},
+        {"id": "card-3", "card": "rose", "beats": 2},
+        {"id": "step-3", "label": "Step 3", "beats": 2, "min": 0.54, "max": 1.97, "sample": "product", "motion": "punch", "cut": {"transition": "nowframe.transition.slide-up", "beats": 0.5}},
+        {"id": "card-4", "card": "moss", "beats": 2},
+        {"id": "step-4", "label": "Step 4", "beats": 2, "min": 0.54, "max": 1.97, "sample": "product", "motion": "punch", "cut": {"transition": "nowframe.transition.slide-up", "beats": 0.5}},
+        {"id": "card-5", "card": "iris", "beats": 2},
+        {"id": "step-5", "label": "Step 5", "beats": 4, "min": 1.08, "max": 3.93, "hold": true, "sample": "product", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "offset": 1, "seconds": 0.15, "from": "step-1", "through": "step-5"}
+  ],
+  "texts": [
+    {"text": "01", "style": "number.huge", "animation": "pop", "inSeconds": 0.3, "outSeconds": 0.15, "color": "ink", "slot": "card-1", "y": -0.08},
+    {"text": "THE BOX", "label": "Step 1 name", "style": "kicker.mono", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 44, "color": "ink", "slot": "card-1", "at": 0.25, "y": 0.12},
+    {"text": "02", "style": "number.huge", "animation": "pop", "inSeconds": 0.3, "outSeconds": 0.15, "color": "ink", "slot": "card-2", "y": -0.08},
+    {"text": "FIRST LOOK", "label": "Step 2 name", "style": "kicker.mono", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 44, "color": "ink", "slot": "card-2", "at": 0.25, "y": 0.12},
+    {"text": "03", "style": "number.huge", "animation": "pop", "inSeconds": 0.3, "outSeconds": 0.15, "color": "ink", "slot": "card-3", "y": -0.08},
+    {"text": "THE DETAILS", "label": "Step 3 name", "style": "kicker.mono", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 44, "color": "ink", "slot": "card-3", "at": 0.25, "y": 0.12},
+    {"text": "04", "style": "number.huge", "animation": "pop", "inSeconds": 0.3, "outSeconds": 0.15, "color": "ink", "slot": "card-4", "y": -0.08},
+    {"text": "IN HAND", "label": "Step 4 name", "style": "kicker.mono", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 44, "color": "ink", "slot": "card-4", "at": 0.25, "y": 0.12},
+    {"text": "05", "style": "number.huge", "animation": "pop", "inSeconds": 0.3, "outSeconds": 0.15, "color": "ink", "slot": "card-5", "y": -0.08},
+    {"text": "ALL SET", "label": "Step 5 name", "style": "kicker.mono", "animation": "typewriter", "inSeconds": 0.35, "outSeconds": 0.15, "size": 44, "color": "ink", "slot": "card-5", "at": 0.25, "y": 0.12},
+    {"text": "Worth the wait", "label": "Sign-off", "style": "caption.chip", "animation": "words", "slot": "step-5", "at": 0.5, "y": -0.24}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.pop", "slot": "card-1", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.pop", "slot": "card-2", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.pop", "slot": "card-3", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.pop", "slot": "card-4", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.pop", "slot": "card-5", "at": 0, "gain": 0.3}
+  ]
+}

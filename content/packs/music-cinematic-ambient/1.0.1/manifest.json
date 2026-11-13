@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "id": "music-cinematic-ambient",
+  "kind": "sound",
+  "version": "1.0.1",
+  "displayName": "Cinematic and ambient music",
+  "premium": false,
+  "categories": [
+    {
+      "id": "cinematic",
+      "displayName": "Cinematic"
+    },
+    {
+      "id": "ambient-soft",
+      "displayName": "Ambient"
+    }
+  ],
+  "items": [
+    {
+      "id": "nowframe.music.ondrosik-calm-before-the-storm",
+      "displayName": "Calm Before the Storm",
+      "category": "cinematic",
+      "asset": "tracks/ondrosik-calm-before-the-storm.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Ondrosik",
+        "genre": "Cinematic / Orchestral",
+        "mood": "cinematic",
+        "bpm": "86.5",
+        "duration": "142.6",
+        "previewStart": "21.1",
+        "sourceTitle": "Calm Before the Storm",
+        "sourceURL": "https://freemusicarchive.org/music/Ondrosik/enchanted-valley/calm-before-the-storm/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/ondrosik-calm-before-the-storm.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Calm Before the Storm” by Ondrosik, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/Ondrosik/enchanted-valley/calm-before-the-storm/"
+      }
+    },
+    {
+      "id": "nowframe.music.ondrosik-enchanted-valley",
+      "displayName": "Enchanted Valley",
+      "category": "cinematic",
+      "asset": "tracks/ondrosik-enchanted-valley.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Ondrosik",
+        "genre": "Cinematic / Orchestral",
+        "mood": "cinematic",
+        "bpm": "90",
+        "duration": "135.4",
+        "previewStart": "59.4",
+        "sourceTitle": "Enchanted Valley",
+        "sourceURL": "https://freemusicarchive.org/music/Ondrosik/enchanted-valley/enchanted-valley/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/ondrosik-enchanted-valley.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Enchanted Valley” by Ondrosik, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/Ondrosik/enchanted-valley/enchanted-valley/"
+      }
+    },
+    {
+      "id": "nowframe.music.ondrosik-face-in-the-grass",
+      "displayName": "Face in the Grass",
+      "category": "cinematic",
+      "asset": "tracks/ondrosik-face-in-the-grass.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Ondrosik",
+        "genre": "Cinematic / Orchestral",
+        "mood": "cinematic",
+        "bpm": "85",
+        "duration": "173",
+        "previewStart": "111.2",
+        "sourceTitle": "Face in the Grass",
+        "sourceURL": "https://freemusicarchive.org/music/Ondrosik/enchanted-valley/face-in-the-grass/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/ondrosik-face-in-the-grass.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Face in the Grass” by Ondrosik, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/Ondrosik/enchanted-valley/face-in-the-grass/"
+      }
+    },
+    {
+      "id": "nowframe.music.ondrosik-for-ivanka-2-full-orchestral-version",
+      "displayName": "For Ivanka 2 - full orchestral version",
+      "category": "cinematic",
+      "asset": "tracks/ondrosik-for-ivanka-2-full-orchestral-version.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Ondrosik",
+        "genre": "Cinematic / Orchestral",
+        "mood": "cinematic",
+        "bpm": "115.1",
+        "duration": "177.2",
+        "previewStart": "83.3",
+        "sourceTitle": "For Ivanka 2 - full orchestral version",
+        "sourceURL": "https://freemusicarchive.org/music/Ondrosik/burnout/for-ivanka-2-full-orchestral-versionmp3/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/ondrosik-for-ivanka-2-full-orchestral-version.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“For Ivanka 2 - full orchestral version” by Ondrosik, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/Ondrosik/burnout/for-ivanka-2-full-orchestral-versionmp3/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-atmosphere-1",
+      "displayName": "Atmosphere 1",
+      "category": "ambient-soft",
+      "asset": "tracks/holiznacc0-atmosphere-1.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Ambient / Soft",
+        "mood": "ambient-soft",
+        "bpm": "130",
+        "duration": "125.5",
+        "previewStart": "59.1",
+        "sourceTitle": "Atmosphere 1",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/retro-gamer-soundtrack/atmosphere-1-1/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-atmosphere-1.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Atmosphere 1” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/retro-gamer-soundtrack/atmosphere-1-1/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-beginning-4",
+      "displayName": "Beginning 4",
+      "category": "ambient-soft",
+      "asset": "tracks/holiznacc0-beginning-4.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Ambient / Soft",
+        "mood": "ambient-soft",
+        "bpm": "94",
+        "duration": "145.9",
+        "previewStart": "59.2",
+        "sourceTitle": "Beginning 4",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/gamer-soundtrack-beginnings/beginning-4/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-beginning-4.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Beginning 4” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/gamer-soundtrack-beginnings/beginning-4/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-drifting-piano",
+      "displayName": "Drifting Piano",
+      "category": "ambient-soft",
+      "asset": "tracks/holiznacc0-drifting-piano.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Ambient / Soft",
+        "mood": "ambient-soft",
+        "bpm": "99.9",
+        "duration": "110.5",
+        "previewStart": "9.6",
+        "sourceTitle": "Drifting Piano",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/background-music/drifting-piano/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-drifting-piano.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Drifting Piano” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/background-music/drifting-piano/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-lullabies-for-the-end-of-the-world-1",
+      "displayName": "Lullabies For The End Of The World #1",
+      "category": "ambient-soft",
+      "asset": "tracks/holiznacc0-lullabies-for-the-end-of-the-world-1.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Ambient / Soft",
+        "mood": "ambient-soft",
+        "bpm": "115",
+        "duration": "164.9",
+        "previewStart": "8.5",
+        "sourceTitle": "Lullabies For The End Of The World #1",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/lullabies-for-the-end-of-the-world/lullabies-for-the-end-of-the-world-1/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-lullabies-for-the-end-of-the-world-1.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Lullabies For The End Of The World #1” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/lullabies-for-the-end-of-the-world/lullabies-for-the-end-of-the-world-1/"
+      }
+    }
+  ],
+  "_contentHash": "f1c9598323f4a2fc96e3f6da33e6fc2cd243b9e585c7b32b1df9354e824ae818"
+}

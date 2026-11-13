@@ -1,0 +1,49 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "city-pulse",
+  "name": "City pulse",
+  "description": "A high-contrast mono street edit: a slammed place name, six two-beat cuts with a shake on the bar, then a burst of four one-beat cuts with a flash each and one tungsten word per cut.",
+  "category": "city",
+  "tags": ["beatsync"],
+  "pro": true,
+  "canvas": "9:16",
+  "bpm": 149.6,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "tungsten",
+  "look": {"filter": "nowframe.filter.mono-hi", "amount": 70, "contrast": 10, "grain": 12},
+  "music": {"track": "nowframe.music.holiznacc0-phonk-ish", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "City pulse", "kicker": "Street level"},
+  "sections": [
+    { "id": "opener", "slots": [
+        {"id": "opener", "label": "Opener", "beats": 6, "min": 1.32, "max": 4.82, "sample": "city", "motion": "punch"}
+      ] },
+    { "id": "steady", "repeat": 3, "slots": [
+        {"label": "Street {n}", "beats": 2, "min": 0.44, "max": 1.61, "sample": "city", "motion": "punch"},
+        {"label": "Street {n}", "beats": 2, "min": 0.44, "max": 1.61, "sample": "night", "motion": "punch", "zoom": 1.06}
+      ] },
+    { "id": "rapid", "repeat": 4, "slots": [
+        {"label": "Rapid {n}", "beats": 1, "min": 0.3, "max": 1.2, "sample": "city", "motion": "punch"}
+      ] },
+    { "id": "end", "slots": [
+        {"id": "last", "label": "Last shot", "beats": 4, "min": 0.88, "max": 3.21, "hold": true, "sample": "city", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "camerashake", "anchor": "beat", "every": 4, "seconds": 0.25, "section": "steady"},
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "offset": 1, "seconds": 0.15, "section": "steady"},
+    {"effect": "flash", "anchor": "cut", "every": 1, "seconds": 0.1, "section": "rapid"}
+  ],
+  "texts": [
+    {"text": "DOWNTOWN", "label": "Place", "style": "title.big", "animation": "slam", "size": 104, "slot": "opener", "at": 1, "beats": 5, "y": -0.2},
+    {"text": "STREET LEVEL", "label": "Kicker", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "opener", "at": 1.5, "beats": 4.5, "y": -0.12},
+    {"text": "LOOK", "style": "title.big", "animation": "cut", "color": "tungsten", "slot": "rapid-1", "y": -0.05},
+    {"text": "MOVE", "style": "title.big", "animation": "cut", "color": "tungsten", "slot": "rapid-2", "y": -0.05},
+    {"text": "STOP", "style": "title.big", "animation": "cut", "color": "tungsten", "slot": "rapid-3", "y": -0.05},
+    {"text": "GO", "style": "title.big", "animation": "cut", "color": "tungsten", "slot": "rapid-4", "y": -0.05},
+    {"text": "SEE YOU OUT THERE", "label": "Sign-off", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "last", "at": 1, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.slam", "slot": "rapid-1", "at": 0, "gain": 0.45}
+  ]
+}

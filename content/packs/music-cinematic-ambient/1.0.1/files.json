@@ -1,0 +1,102 @@
+{
+  "files": [
+    {
+      "bytes": 2084,
+      "path": "LICENSES.md",
+      "sha256": "4694fa2bf01331efa4b060919684af134d808a8f323169825f4b7983850df001"
+    },
+    {
+      "bytes": 9162,
+      "path": "manifest.json",
+      "sha256": "1e8c022ea5775d39ded73ed2a120158a7627a1bff031a8a65faf5e0519858ae8"
+    },
+    {
+      "bytes": 2534,
+      "path": "tracks/holiznacc0-atmosphere-1.beats.json",
+      "sha256": "4abd9be3245bae38f724dc983bd71d114face73cdff66c269795c2ae507b2741"
+    },
+    {
+      "bytes": 2535511,
+      "lazy": true,
+      "path": "tracks/holiznacc0-atmosphere-1.m4a",
+      "sha256": "199f1ae07879d33908405e03cf5ec908047580ce7e4c3f313bf6e05e54eb8822"
+    },
+    {
+      "bytes": 2184,
+      "path": "tracks/holiznacc0-beginning-4.beats.json",
+      "sha256": "626eca7705594ea441ed2c9ad46a180355efd1fec83fa5de8bb8c4b6f156dcc1"
+    },
+    {
+      "bytes": 2948738,
+      "lazy": true,
+      "path": "tracks/holiznacc0-beginning-4.m4a",
+      "sha256": "57463a231adc62a4ec5f4b4bf8cce9012f2c1d2f5c5d5d04c1a3f3fc8542d16b"
+    },
+    {
+      "bytes": 1702,
+      "path": "tracks/holiznacc0-drifting-piano.beats.json",
+      "sha256": "291a3cdd9f71792111b5bebf04c93f56f05378561cf3a45eeab43c93125e912d"
+    },
+    {
+      "bytes": 2235643,
+      "lazy": true,
+      "path": "tracks/holiznacc0-drifting-piano.m4a",
+      "sha256": "545b5d9ab58c66bd8fd33d2fbcdb17a58510a20ae8b2ba2df7bb97ac9c5cd6a5"
+    },
+    {
+      "bytes": 3030,
+      "path": "tracks/holiznacc0-lullabies-for-the-end-of-the-world-1.beats.json",
+      "sha256": "e8ac4aeb8c5764ea839fbc4e27a875af9eafeaf9f40f0519d622db06ba59857f"
+    },
+    {
+      "bytes": 3330941,
+      "lazy": true,
+      "path": "tracks/holiznacc0-lullabies-for-the-end-of-the-world-1.m4a",
+      "sha256": "29dba07c39f70cf36fccc169e544c244e604afa365dbf516752d6d1c32d5bcc4"
+    },
+    {
+      "bytes": 2001,
+      "path": "tracks/ondrosik-calm-before-the-storm.beats.json",
+      "sha256": "be834ea004f38ebb138d26c9bfe2bf1be9905a84ce08b0ca754cdab498ad3ba7"
+    },
+    {
+      "bytes": 2880486,
+      "lazy": true,
+      "path": "tracks/ondrosik-calm-before-the-storm.m4a",
+      "sha256": "00f685435df7a8374f806fa9e94b81ee5fbea8d80a071dd14c6f060d3946ff2f"
+    },
+    {
+      "bytes": 1946,
+      "path": "tracks/ondrosik-enchanted-valley.beats.json",
+      "sha256": "058126217f44a8ef5990c1c823266bae7058979ce169b517efda6d0c2c68dd4c"
+    },
+    {
+      "bytes": 2737429,
+      "lazy": true,
+      "path": "tracks/ondrosik-enchanted-valley.m4a",
+      "sha256": "db6ab0d9f32832b311c932b9cab32543ed48b313ea648d81f31add0d00aeaf60"
+    },
+    {
+      "bytes": 2376,
+      "path": "tracks/ondrosik-face-in-the-grass.beats.json",
+      "sha256": "13445526fcf172fcb7ce484e687c4a6df5f87da89217e6566633e852b5692f93"
+    },
+    {
+      "bytes": 3497594,
+      "lazy": true,
+      "path": "tracks/ondrosik-face-in-the-grass.m4a",
+      "sha256": "ea6899fd4d8a00afa80cfa65454d8738cc76e48e82e8e089a00733827465f16a"
+    },
+    {
+      "bytes": 3251,
+      "path": "tracks/ondrosik-for-ivanka-2-full-orchestral-version.beats.json",
+      "sha256": "ddf3d7bb1c3c8a58f6bbaefdbe114481d8bb8f56dee6a94f998c3c259af7c461"
+    },
+    {
+      "bytes": 3582006,
+      "lazy": true,
+      "path": "tracks/ondrosik-for-ivanka-2-full-orchestral-version.m4a",
+      "sha256": "a71ef6492c33961fd538ea46cadca1674542ec505efde3dbcba10c8ca4e3260b"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "music-hiphop-phonk",
+  "kind": "sound",
+  "version": "1.0.1",
+  "displayName": "Hip-hop and phonk music",
+  "premium": false,
+  "categories": [
+    {
+      "id": "phonk-trap",
+      "displayName": "Phonk and trap"
+    },
+    {
+      "id": "hip-hop",
+      "displayName": "Hip-hop"
+    }
+  ],
+  "items": [
+    {
+      "id": "nowframe.music.holiznacc0-phonk-ish",
+      "displayName": "Phonk ish",
+      "category": "phonk-trap",
+      "asset": "tracks/holiznacc0-phonk-ish.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Phonk / Trap",
+        "mood": "phonk-trap",
+        "bpm": "150.1",
+        "duration": "145.5",
+        "previewStart": "93.6",
+        "sourceTitle": "Phonk ish",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/phonk-aura-farming/phonk-ish/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-phonk-ish.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Phonk ish” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/phonk-aura-farming/phonk-ish/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-phonk-remix",
+      "displayName": "Phonk Remix",
+      "category": "phonk-trap",
+      "asset": "tracks/holiznacc0-phonk-remix.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Phonk / Trap",
+        "mood": "phonk-trap",
+        "bpm": "91.8",
+        "duration": "169.4",
+        "previewStart": "57.3",
+        "sourceTitle": "Phonk Remix",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/phonk-aura-farming/phonk-remix/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-phonk-remix.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Phonk Remix” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/phonk-aura-farming/phonk-remix/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-wolf",
+      "displayName": "Wolf",
+      "category": "phonk-trap",
+      "asset": "tracks/holiznacc0-wolf.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Phonk / Trap",
+        "mood": "phonk-trap",
+        "bpm": "150.1",
+        "duration": "177.6",
+        "previewStart": "88.5",
+        "sourceTitle": "WOLF",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/after-dark/wolf-1/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-wolf.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“WOLF” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/after-dark/wolf-1/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-childs-play",
+      "displayName": "Childs Play",
+      "category": "hip-hop",
+      "asset": "tracks/holiznacc0-childs-play.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Hip-Hop / Beats",
+        "mood": "hip-hop",
+        "bpm": "80",
+        "duration": "170.9",
+        "previewStart": "63.7",
+        "sourceTitle": "Childs Play",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/after-dark/childs-play-1/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-childs-play.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Childs Play” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/after-dark/childs-play-1/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-serial",
+      "displayName": "Serial",
+      "category": "hip-hop",
+      "asset": "tracks/holiznacc0-serial.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Hip-Hop / Beats",
+        "mood": "hip-hop",
+        "bpm": "80",
+        "duration": "148.1",
+        "previewStart": "100.8",
+        "sourceTitle": "Serial",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/after-dark/serial-1/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-serial.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Serial” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/after-dark/serial-1/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-when-i-was-human",
+      "displayName": "When I Was Human",
+      "category": "hip-hop",
+      "asset": "tracks/holiznacc0-when-i-was-human.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Hip-Hop / Beats",
+        "mood": "hip-hop",
+        "bpm": "84.8",
+        "duration": "152.9",
+        "previewStart": "43.1",
+        "sourceTitle": "When I Was Human ( LoFi , Chill )",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/when-i-was-human-lofi-chill/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-when-i-was-human.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“When I Was Human ( LoFi , Chill )” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/when-i-was-human-lofi-chill/"
+      }
+    },
+    {
+      "id": "nowframe.music.ondrosik-city-lights-at-night",
+      "displayName": "City lights at night",
+      "category": "hip-hop",
+      "asset": "tracks/ondrosik-city-lights-at-night.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Ondrosik",
+        "genre": "Hip-Hop / Beats",
+        "mood": "hip-hop",
+        "bpm": "87.5",
+        "duration": "180",
+        "previewStart": "35.5",
+        "sourceTitle": "City lights at night",
+        "sourceURL": "https://freemusicarchive.org/music/Ondrosik/burnout/city-lights-at-night/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/ondrosik-city-lights-at-night.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“City lights at night” by Ondrosik, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/Ondrosik/burnout/city-lights-at-night/"
+      }
+    }
+  ],
+  "_contentHash": "388f25e4f0e9412ca05ceab13c5be964163d2d603e94327b3867b8406da594af"
+}

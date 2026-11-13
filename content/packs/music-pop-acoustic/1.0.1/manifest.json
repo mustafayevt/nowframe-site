@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "music-pop-acoustic",
+  "kind": "sound",
+  "version": "1.0.1",
+  "displayName": "Pop and acoustic music",
+  "premium": false,
+  "categories": [
+    {
+      "id": "upbeat-pop",
+      "displayName": "Upbeat pop"
+    },
+    {
+      "id": "acoustic-feel-good",
+      "displayName": "Acoustic"
+    }
+  ],
+  "items": [
+    {
+      "id": "nowframe.music.amarent-stairwell-harmony",
+      "displayName": "Stairwell Harmony",
+      "category": "upbeat-pop",
+      "asset": "tracks/amarent-stairwell-harmony.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Amarent",
+        "genre": "Pop / Dance",
+        "mood": "upbeat-pop",
+        "bpm": "105",
+        "duration": "119.7",
+        "previewStart": "27.7",
+        "sourceTitle": "Stairwell Harmony",
+        "sourceURL": "https://freemusicarchive.org/music/amarent/public-domain/stairwell-harmony/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/amarent-stairwell-harmony.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Stairwell Harmony” by Amarent, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/amarent/public-domain/stairwell-harmony/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-funky-pop",
+      "displayName": "Funky Pop",
+      "category": "upbeat-pop",
+      "asset": "tracks/holiznacc0-funky-pop.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Pop / Dance",
+        "mood": "upbeat-pop",
+        "bpm": "121",
+        "duration": "142.8",
+        "previewStart": "74.3",
+        "sourceTitle": "Funky Pop",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/power-pop/funky-pop/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-funky-pop.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Funky Pop” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/power-pop/funky-pop/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-happy-dance",
+      "displayName": "Happy Dance",
+      "category": "upbeat-pop",
+      "asset": "tracks/holiznacc0-happy-dance.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Pop / Dance",
+        "mood": "upbeat-pop",
+        "bpm": "119.6",
+        "duration": "156",
+        "previewStart": "8.5",
+        "sourceTitle": "Happy Dance",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/power-pop/happy-dance-2/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-happy-dance.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Happy Dance” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/power-pop/happy-dance-2/"
+      }
+    },
+    {
+      "id": "nowframe.music.ondrosik-sunlit-groove",
+      "displayName": "Sunlit Groove",
+      "category": "upbeat-pop",
+      "asset": "tracks/ondrosik-sunlit-groove.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Ondrosik",
+        "genre": "Pop / Dance",
+        "mood": "upbeat-pop",
+        "bpm": "125",
+        "duration": "113.7",
+        "previewStart": "14.7",
+        "sourceTitle": "Sunlit Groove",
+        "sourceURL": "https://freemusicarchive.org/music/Ondrosik/burnout/sunlit-groove/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/ondrosik-sunlit-groove.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Sunlit Groove” by Ondrosik, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/Ondrosik/burnout/sunlit-groove/"
+      }
+    },
+    {
+      "id": "nowframe.music.art-flower-art-flower-daisy-flower",
+      "displayName": "Daisy Flower",
+      "category": "acoustic-feel-good",
+      "asset": "tracks/art-flower-art-flower-daisy-flower.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Art Flower",
+        "genre": "Acoustic / Indie",
+        "mood": "acoustic-feel-good",
+        "bpm": "89.8",
+        "duration": "180",
+        "previewStart": "83.2",
+        "sourceTitle": "Art Flower - Daisy Flower",
+        "sourceURL": "https://freemusicarchive.org/music/art-flower/all-that-jazz/art-flower-daisy-flower/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/art-flower-art-flower-daisy-flower.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Art Flower - Daisy Flower” by Art Flower, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/art-flower/all-that-jazz/art-flower-daisy-flower/"
+      }
+    },
+    {
+      "id": "nowframe.music.art-flower-art-flower-dancing-bee",
+      "displayName": "Dancing Bee",
+      "category": "acoustic-feel-good",
+      "asset": "tracks/art-flower-art-flower-dancing-bee.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Art Flower",
+        "genre": "Acoustic / Indie",
+        "mood": "acoustic-feel-good",
+        "bpm": "139.5",
+        "duration": "180",
+        "previewStart": "88.2",
+        "sourceTitle": "Art Flower - Dancing Bee",
+        "sourceURL": "https://freemusicarchive.org/music/art-flower/all-that-jazz/art-flower-dancing-bee/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/art-flower-art-flower-dancing-bee.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Art Flower - Dancing Bee” by Art Flower, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/art-flower/all-that-jazz/art-flower-dancing-bee/"
+      }
+    },
+    {
+      "id": "nowframe.music.mr-smith-pequenas-guitarras",
+      "displayName": "Pequeñas Guitarras",
+      "category": "acoustic-feel-good",
+      "asset": "tracks/mr-smith-pequenas-guitarras.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Mr Smith",
+        "genre": "Acoustic / Indie",
+        "mood": "acoustic-feel-good",
+        "bpm": "112.4",
+        "duration": "142.7",
+        "previewStart": "120.7",
+        "sourceTitle": "Pequeñas Guitarras",
+        "sourceURL": "https://freemusicarchive.org/music/mr-smith/hope-lights-the-horizon/pequenas-guitarras/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/mr-smith-pequenas-guitarras.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Pequeñas Guitarras” by Mr Smith, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/mr-smith/hope-lights-the-horizon/pequenas-guitarras/"
+      }
+    }
+  ],
+  "_contentHash": "2161a22be74d293b77485af8580d68a60521ee6a013136f8089b7ca0f6806c37"
+}

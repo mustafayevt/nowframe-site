@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "bytes": 1400,
+      "path": "LICENSES.md",
+      "sha256": "7fb76041b0541227c80cef7e37d91b68449e6dfe4226ed542c8230b939f0d6fe"
+    },
+    {
+      "bytes": 5438,
+      "path": "manifest.json",
+      "sha256": "374fe4e51715dada8f6adaa53914244f806f7e8748b35b4b52dbed7dd98ed515"
+    },
+    {
+      "bytes": 2684,
+      "path": "tracks/holiznacc0-lost-in-the-rythm.beats.json",
+      "sha256": "9a9111b056ecd770388d6b4bcf76f193fabb40d1a641c5eac202b8013eaab1b8"
+    },
+    {
+      "bytes": 3233400,
+      "lazy": true,
+      "path": "tracks/holiznacc0-lost-in-the-rythm.m4a",
+      "sha256": "10f8d6c6e068229066132d857c4cbf03d03630e56c6eef8cd5abb4e472298426"
+    },
+    {
+      "bytes": 2576,
+      "path": "tracks/holiznacc0-make-funk.beats.json",
+      "sha256": "94dda83e9a6821ce23a64ba873bf4bd58801fd7a116700595f08510e2f6a6d4d"
+    },
+    {
+      "bytes": 3294268,
+      "lazy": true,
+      "path": "tracks/holiznacc0-make-funk.m4a",
+      "sha256": "0123a893228a542cef8810f2794f870815df1f8d1c572de7de69b1b8d1753521"
+    },
+    {
+      "bytes": 3292,
+      "path": "tracks/trg-banks-night-sun.beats.json",
+      "sha256": "1e110e15690914badfb8d4e3da06eb1e4c8906299723c7724287666aee22c10d"
+    },
+    {
+      "bytes": 3422995,
+      "lazy": true,
+      "path": "tracks/trg-banks-night-sun.m4a",
+      "sha256": "74df41d90df5eae42393bd7da9715c60125381b7a120c01f5fe3f7b274e9d157"
+    },
+    {
+      "bytes": 2396,
+      "path": "tracks/wax-lyricist-the-brass-brigade.beats.json",
+      "sha256": "a2391c7dca97c9b6a399a6c7c947999f076b4a6a3da15133252793c31a48295c"
+    },
+    {
+      "bytes": 3214258,
+      "lazy": true,
+      "path": "tracks/wax-lyricist-the-brass-brigade.m4a",
+      "sha256": "524e50151b31bad076721dd53aab3a77f8e48c1c922489e79e1d82ae1d0f8382"
+    },
+    {
+      "bytes": 2674,
+      "path": "tracks/zane-little-empty-stretch.beats.json",
+      "sha256": "81badf36feea5deabf4e4154245d68dfcffa9e8ce7719417997338cc4387d3e4"
+    },
+    {
+      "bytes": 2846325,
+      "lazy": true,
+      "path": "tracks/zane-little-empty-stretch.m4a",
+      "sha256": "2377767a4e9f4bd94515598fe521620023e494cfbc750158c75663d5daa2fe7b"
+    }
+  ]
+}

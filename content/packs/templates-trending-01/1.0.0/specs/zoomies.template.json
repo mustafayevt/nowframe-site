@@ -1,0 +1,52 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "zoomies",
+  "name": "Zoomies",
+  "description": "A pet clip with energy: a warning caption, six one-beat punch-in cuts with 'zoom' popping left and right, a freeze-frame speed ramp that lands the pet's name and title, and a calm last shot.",
+  "category": "pets",
+  "tags": ["beatsync"],
+  "pro": false,
+  "canvas": "9:16",
+  "bpm": 120.2,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "rose",
+  "look": {"filter": "nowframe.filter.warm", "amount": 25, "saturation": 8},
+  "music": {"track": "nowframe.music.holiznacc0-pixel-party", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Zoomies", "kicker": "Pet energy"},
+  "sections": [
+    { "id": "opener", "slots": [
+        {"id": "opener", "label": "Opener", "beats": 4, "min": 1.09, "max": 4.0, "sample": "pets", "motion": "push"}
+      ] },
+    { "id": "zoom", "repeat": 6, "slots": [
+        {"label": "Zoomies {n}", "beats": 1, "min": 0.3, "max": 1.2, "sample": "pets", "motion": "punch"}
+      ] },
+    { "id": "freeze", "slots": [
+        {"id": "freeze", "label": "Freeze frame", "beats": 4, "min": 1.09, "max": 4.0, "keepsSpeed": true, "speed": "nowframe.speed.freezeShot", "sample": "pets", "prefers": "video", "motion": "still"}
+      ] },
+    { "id": "end", "slots": [
+        {"id": "last", "label": "Last shot", "beats": 3, "min": 0.82, "max": 3.0, "hold": true, "sample": "pets", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "offset": 1, "seconds": 0.12, "section": "zoom"}
+  ],
+  "texts": [
+    {"text": "Warning: zoomies ahead", "label": "Warning", "style": "caption.chip", "animation": "words", "slot": "opener", "at": 0.25, "beats": 3.75, "y": -0.24},
+    {"text": "ZOOM", "style": "title.big", "animation": "pop", "inSeconds": 0.2, "outSeconds": 0.1, "size": 100, "color": "ink", "chip": "tungsten", "slot": "zoomies-1", "x": -0.15, "y": -0.26},
+    {"text": "ZOOM", "style": "title.big", "animation": "pop", "inSeconds": 0.2, "outSeconds": 0.1, "size": 100, "color": "ink", "chip": "tungsten", "slot": "zoomies-2", "x": 0.15, "y": -0.17},
+    {"text": "ZOOM", "style": "title.big", "animation": "pop", "inSeconds": 0.2, "outSeconds": 0.1, "size": 100, "color": "ink", "chip": "tungsten", "slot": "zoomies-3", "x": -0.15, "y": -0.26},
+    {"text": "ZOOM", "style": "title.big", "animation": "pop", "inSeconds": 0.2, "outSeconds": 0.1, "size": 100, "color": "ink", "chip": "tungsten", "slot": "zoomies-4", "x": 0.15, "y": -0.17},
+    {"text": "ZOOM", "style": "title.big", "animation": "pop", "inSeconds": 0.2, "outSeconds": 0.1, "size": 100, "color": "ink", "chip": "tungsten", "slot": "zoomies-5", "x": -0.15, "y": -0.26},
+    {"text": "ZOOM", "style": "title.big", "animation": "pop", "inSeconds": 0.2, "outSeconds": 0.1, "size": 100, "color": "ink", "chip": "tungsten", "slot": "zoomies-6", "x": 0.15, "y": -0.17},
+    {"text": "Biscuit", "label": "Pet name", "style": "title.big", "animation": "pop", "slot": "freeze", "at": 1.5, "beats": 2.5, "y": -0.2},
+    {"text": "CHIEF NAP OFFICER", "label": "Pet title", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "freeze", "at": 2, "beats": 2, "y": -0.1},
+    {"text": "Back to napping", "label": "Sign-off", "style": "quote.serif", "size": 60, "animation": "reveal", "slot": "last", "at": 0.5, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.pop", "slot": "zoomies-1", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.pop", "slot": "zoomies-3", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.pop", "slot": "zoomies-5", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.ding", "slot": "freeze", "at": 1.5, "gain": 0.3}
+  ]
+}

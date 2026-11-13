@@ -1,0 +1,42 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.2,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 4,
+      "fromSlot" : 0,
+      "offset" : 2,
+      "throughSlot" : 7
+    }
+  ],
+  "bpm" : 139.9,
+  "clipSlotCount" : 9,
+  "contentHash" : "9f61848388a3fce6328a935e93a32fecc3dacd651962b22ca98f0ed172024fdb",
+  "createdAt" : 1767225600000,
+  "duration" : 11.15,
+  "id" : "nowframe.template.day-in-timestamps",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : false,
+  "isStarter" : true,
+  "mediaBytes" : 725510,
+  "minAppBuild" : 9,
+  "name" : "Day in timestamps",
+  "requires" : [
+    "effect.zoompulse",
+    "filter.warm",
+    "template.beatFit",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord",
+    "transition.slide-left"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 24,
+  "tags" : [
+    "beatsync",
+    "vlog"
+  ],
+  "theme" : "vlog"
+}

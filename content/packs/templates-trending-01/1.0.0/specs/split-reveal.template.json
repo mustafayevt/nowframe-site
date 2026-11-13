@@ -1,0 +1,61 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "split-reveal",
+  "name": "Split reveal",
+  "description": "A split-screen before and after: the washed-out before over the full-colour after, two side-by-side detail pairs on the beat, the after full screen with the before tucked into a corner, then the after alone. One before and one after clip fill every frame they appear in.",
+  "category": "makeover",
+  "tags": ["beatsync"],
+  "pro": false,
+  "canvas": "9:16",
+  "bpm": 98.5,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "moss",
+  "look": {"filter": "nowframe.filter.fresh-bite", "amount": 25, "contrast": 8},
+  "music": {"track": "nowframe.music.holiznacc0-make-funk", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "frame": 1.6, "background": "ink", "title": "Split reveal", "kicker": "Before and after"},
+  "sections": [
+    { "id": "split",
+      "layout": {"kind": "top-bottom", "beats": 6, "min": 2.4, "max": 5.4, "gap": 0.008, "color": "light"},
+      "slots": [
+        {"id": "before", "label": "Before", "tag": "rose", "sample": "home", "look": {"filter": "none", "saturation": -100, "contrast": 12, "fade": 10}},
+        {"id": "after", "label": "After", "tag": "mint", "sample": "home"}
+      ] },
+    { "id": "detail-1",
+      "layout": {"kind": "side-by-side", "beats": 2, "min": 0.8, "max": 1.8, "gap": 0.008, "color": "light"},
+      "slots": [
+        {"id": "detail-1-before", "label": "Detail 1 before", "sample": "texture", "look": {"filter": "none", "saturation": -100, "contrast": 12, "fade": 10}},
+        {"id": "detail-1-after", "label": "Detail 1 after", "sample": "texture"}
+      ] },
+    { "id": "detail-2",
+      "layout": {"kind": "side-by-side", "beats": 2, "min": 0.8, "max": 1.8, "gap": 0.008, "color": "light"},
+      "slots": [
+        {"id": "detail-2-before", "label": "Detail 2 before", "sample": "home", "look": {"filter": "none", "saturation": -100, "contrast": 12, "fade": 10}},
+        {"id": "detail-2-after", "label": "Detail 2 after", "sample": "home"}
+      ] },
+    { "id": "reveal",
+      "layout": {"kind": "pip", "beats": 4, "min": 1.6, "max": 3.6, "gap": 0.0, "radius": 0.08, "border": 4, "borderColor": "light"},
+      "slots": [
+        {"id": "reveal-after", "label": "After (full)", "tag": "mint", "sample": "home"},
+        {"id": "reveal-before", "label": "Before (corner)", "tag": "rose", "sample": "home", "look": {"filter": "none", "saturation": -100, "contrast": 12, "fade": 10}}
+      ] },
+    { "id": "final", "stretch": true, "slots": [
+        {"id": "final", "label": "After (final)", "tag": "mint", "beats": 4, "min": 1.6, "max": 3.6, "hold": true, "sample": "home", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "flash", "anchor": "cut", "seconds": 0.15, "from": "reveal-after", "through": "reveal-after"},
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "seconds": 0.2, "from": "final", "through": "final"}
+  ],
+  "texts": [
+    {"text": "BEFORE", "label": "Before label", "style": "label.chip", "animation": "cut", "anchor": "left", "inset": 0.05, "slot": "before", "y": -0.34},
+    {"text": "AFTER", "label": "After label", "style": "label.gel", "animation": "cut", "anchor": "right", "inset": 0.05, "slot": "after", "at": 1, "beats": 5, "y": 0.06},
+    {"text": "Same room,\nnew rules", "label": "Caption", "style": "caption.chip", "animation": "words", "align": "left", "inset": 0.06, "slot": "reveal-after", "at": 0.5, "y": -0.3},
+    {"text": "Worth every minute", "label": "Sign-off", "style": "quote.serif", "size": 60, "animation": "reveal", "slot": "final", "at": 0.5, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.click", "slot": "detail-1-before", "gain": 0.6},
+    {"sound": "nowframe.sound.click", "slot": "detail-2-before", "gain": 0.6},
+    {"sound": "nowframe.sound.whoosh", "slot": "reveal-after", "gain": 0.35}
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "music-lofi",
+  "kind": "sound",
+  "version": "1.0.1",
+  "displayName": "Lo-fi music",
+  "premium": false,
+  "categories": [
+    {
+      "id": "lo-fi-chill",
+      "displayName": "Lo-fi"
+    }
+  ],
+  "items": [
+    {
+      "id": "nowframe.music.holiznacc0-birds",
+      "displayName": "Birds",
+      "category": "lo-fi-chill",
+      "asset": "tracks/holiznacc0-birds.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Lo-fi",
+        "mood": "lo-fi-chill",
+        "bpm": "139.8",
+        "duration": "169.7",
+        "previewStart": "14.6",
+        "sourceTitle": "Birds ( LoFi , Chill )",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/birds-lofi-chill/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-birds.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Birds ( LoFi , Chill )” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/birds-lofi-chill/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-doodles",
+      "displayName": "Doodles",
+      "category": "lo-fi-chill",
+      "asset": "tracks/holiznacc0-doodles.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Lo-fi",
+        "mood": "lo-fi-chill",
+        "bpm": "85.1",
+        "duration": "138.3",
+        "previewStart": "34.5",
+        "sourceTitle": "Doodles ( LoFi , Happy )",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/doodles-lofi-happy-mp3/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-doodles.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Doodles ( LoFi , Happy )” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/doodles-lofi-happy-mp3/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-lucid",
+      "displayName": "Lucid",
+      "category": "lo-fi-chill",
+      "asset": "tracks/holiznacc0-lucid.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Lo-fi",
+        "mood": "lo-fi-chill",
+        "bpm": "149.1",
+        "duration": "144.9",
+        "previewStart": "48",
+        "sourceTitle": "Lucid ( Lofi , Dreamy , Chill )",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/lucid-lofi-dreamy-chill/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-lucid.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Lucid ( Lofi , Dreamy , Chill )” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/lucid-lofi-dreamy-chill/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-summer-break",
+      "displayName": "Summer Break",
+      "category": "lo-fi-chill",
+      "asset": "tracks/holiznacc0-summer-break.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Lo-fi",
+        "mood": "lo-fi-chill",
+        "bpm": "80",
+        "duration": "173.9",
+        "previewStart": "33.4",
+        "sourceTitle": "Summer Break ( LoFi , Nostalgic )",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/summer-break-lofi-nostalgic-mp3/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-summer-break.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Summer Break ( LoFi , Nostalgic )” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/summer-break-lofi-nostalgic-mp3/"
+      }
+    },
+    {
+      "id": "nowframe.music.holiznacc0-tetrapod",
+      "displayName": "Tetrapod",
+      "category": "lo-fi-chill",
+      "asset": "tracks/holiznacc0-tetrapod.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "Lo-fi",
+        "mood": "lo-fi-chill",
+        "bpm": "91.4",
+        "duration": "143.6",
+        "previewStart": "34.6",
+        "sourceTitle": "Tetrapod ( LoFi , Relaxing )",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/tetrapod-lofi-relaxing-mp3/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-tetrapod.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Tetrapod ( LoFi , Relaxing )” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/tetrapod-lofi-relaxing-mp3/"
+      }
+    }
+  ],
+  "_contentHash": "3287ed45fdcd7a327dd8b5175d9928a4359745947bdec1d7e6c34a42ea0735d9"
+}

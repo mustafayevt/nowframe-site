@@ -1,0 +1,43 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.2,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 4,
+      "fromSlot" : 1,
+      "offset" : 0,
+      "throughSlot" : 9
+    }
+  ],
+  "bpm" : 112.1,
+  "clipSlotCount" : 11,
+  "contentHash" : "d21aa8ad552526339e1dc87418a278b7e050f2fc95e654b7d0e748e243204459",
+  "createdAt" : 1767225600000,
+  "duration" : 12.308333333333334,
+  "id" : "nowframe.template.passport-stamps",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : false,
+  "isStarter" : true,
+  "mediaBytes" : 785001,
+  "minAppBuild" : 9,
+  "name" : "Passport stamps",
+  "requires" : [
+    "effect.zoompulse",
+    "filter.golden-hour",
+    "template.beatFit",
+    "textanim.in.fadeLetters",
+    "textanim.in.riseLetters",
+    "textanim.in.typewriter",
+    "transition.push"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 18,
+  "tags" : [
+    "beatsync",
+    "travel"
+  ],
+  "theme" : "travel"
+}

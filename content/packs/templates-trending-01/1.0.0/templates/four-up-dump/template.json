@@ -1,0 +1,52 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "cut",
+      "duration" : 0.2,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 1,
+      "fromSlot" : 0,
+      "offset" : 0,
+      "throughSlot" : 2
+    },
+    {
+      "anchor" : "cut",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.flash",
+      "every" : 1,
+      "fromSlot" : 3,
+      "offset" : 0,
+      "throughSlot" : 3
+    }
+  ],
+  "bpm" : 120,
+  "clipSlotCount" : 13,
+  "contentHash" : "17fa7c9c3b6b7141c84e94f249f614e7906bb99fc617109d6bf02a4d3d12ac6c",
+  "createdAt" : 1767225600000,
+  "duration" : 10,
+  "id" : "nowframe.template.four-up-dump",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : false,
+  "isStarter" : true,
+  "mediaBytes" : 664756,
+  "minAppBuild" : 9,
+  "name" : "Four up",
+  "requires" : [
+    "effect.flash",
+    "effect.zoompulse",
+    "filter.vivid",
+    "template.beatFit",
+    "textanim.in.riseLetters",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 16,
+  "tags" : [
+    "beatsync",
+    "photodump"
+  ],
+  "theme" : "photodump"
+}

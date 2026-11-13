@@ -1,0 +1,43 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 5,
+      "offset" : 1,
+      "throughSlot" : 7
+    }
+  ],
+  "bpm" : 104.3,
+  "clipSlotCount" : 9,
+  "contentHash" : "23fa78109cc0e720495cf98653ac1051740a90a6307d1283f1de103487b415b4",
+  "createdAt" : 1767225600000,
+  "duration" : 10.926666666666666,
+  "id" : "nowframe.template.week-by-week",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 787928,
+  "minAppBuild" : 9,
+  "name" : "Week by week",
+  "requires" : [
+    "effect.zoompulse",
+    "filter.porcelain",
+    "template.beatFit",
+    "textanim.in.fadeLetters",
+    "textanim.in.typewriter",
+    "textanim.in.zoomWords",
+    "transition.clock-wipe",
+    "transition.flash"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 13,
+  "tags" : [
+    "beatsync"
+  ],
+  "theme" : "makeover"
+}

@@ -1,0 +1,91 @@
+{
+  "files": [
+    {
+      "bytes": 1689,
+      "path": "LICENSES.md",
+      "sha256": "d326bff3ed52126f9f98f62d640bd49a8e117f9fe167953c5ced808169e62979"
+    },
+    {
+      "bytes": 7482,
+      "path": "manifest.json",
+      "sha256": "689b0299cd871a3e1eb9c5bdded58f071c9629b22a6681b0307e417090f135f7"
+    },
+    {
+      "bytes": 2062,
+      "path": "tracks/holiznacc0-childs-play.beats.json",
+      "sha256": "114c9db711b0df07c93a33909acbc97c6944add43c73601ac196c3d44529522c"
+    },
+    {
+      "bytes": 3453064,
+      "lazy": true,
+      "path": "tracks/holiznacc0-childs-play.m4a",
+      "sha256": "855dde09d39a1ee6663bcb528cbc9d70dde16f03a1ce15b1c804b2766b0aaece"
+    },
+    {
+      "bytes": 3319,
+      "path": "tracks/holiznacc0-phonk-ish.beats.json",
+      "sha256": "4e168fd907821c80969ab8a2fce5ea9abf92fa195235c548eaa896ba04e8279b"
+    },
+    {
+      "bytes": 2940371,
+      "lazy": true,
+      "path": "tracks/holiznacc0-phonk-ish.m4a",
+      "sha256": "4a44c503fe11434b928375fce683bc3c23720a02e9e15abd49ea4912f87b0c89"
+    },
+    {
+      "bytes": 2497,
+      "path": "tracks/holiznacc0-phonk-remix.beats.json",
+      "sha256": "7746492c7a5adbf9c47d1739e3e1b0e7fb967239516195924761065820621e8f"
+    },
+    {
+      "bytes": 3421520,
+      "lazy": true,
+      "path": "tracks/holiznacc0-phonk-remix.m4a",
+      "sha256": "028afb38fea9e24b339fc4b756e34368dff5919157292aba07a520ea0525c574"
+    },
+    {
+      "bytes": 1922,
+      "path": "tracks/holiznacc0-serial.beats.json",
+      "sha256": "6cb314971a437e3a9486024fe97d91c56eeaf6bc3247c1d7cc979cd773623c87"
+    },
+    {
+      "bytes": 2992021,
+      "lazy": true,
+      "path": "tracks/holiznacc0-serial.m4a",
+      "sha256": "c8276457885d47ef7095e258a5d16dfefcce77f443e0637306d32b952b34f77f"
+    },
+    {
+      "bytes": 2087,
+      "path": "tracks/holiznacc0-when-i-was-human.beats.json",
+      "sha256": "f327241b4f3186225c124afae8a4bfe4299eb437348f2062a7473e71fe44dc3a"
+    },
+    {
+      "bytes": 3092746,
+      "lazy": true,
+      "path": "tracks/holiznacc0-when-i-was-human.m4a",
+      "sha256": "80cbd81b227649c676f0a50ac187759578c273f7c98cbd9aee57074646d33fad"
+    },
+    {
+      "bytes": 4157,
+      "path": "tracks/holiznacc0-wolf.beats.json",
+      "sha256": "3290570e27780ad3203f15972485025ae33a7586290e90f91bfebd90ec099b5c"
+    },
+    {
+      "bytes": 3589059,
+      "lazy": true,
+      "path": "tracks/holiznacc0-wolf.m4a",
+      "sha256": "16b22fb334fb68ca19cd9e5483de6f950ac971595694b7497e92a8cfba769fd7"
+    },
+    {
+      "bytes": 2537,
+      "path": "tracks/ondrosik-city-lights-at-night.beats.json",
+      "sha256": "8f1aab261d03270df3cb61cb9878918bcd4c527fd8f220c9b3f4eadb427b8afa"
+    },
+    {
+      "bytes": 3638238,
+      "lazy": true,
+      "path": "tracks/ondrosik-city-lights-at-night.m4a",
+      "sha256": "ef9c285b05222d5cb874b371def2d01c247290d91a12c4ee7e245d6f3451ff19"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "bytes": 1415,
+      "path": "LICENSES.md",
+      "sha256": "a1d4944c6b32aff44e65f139501f78b9308c8c2bb97423e058a5d3f1f1a12556"
+    },
+    {
+      "bytes": 5464,
+      "path": "manifest.json",
+      "sha256": "af4d7e9f10d8f227f1eb7f0bd093f87ce4ff82635f6237bc4b0cc97ce088f386"
+    },
+    {
+      "bytes": 3082,
+      "path": "tracks/holiznacc0-love-love-love.beats.json",
+      "sha256": "1285d79b6b505ff52e5e1935fcf62e468dfe19cc4e05475a1cf106f732a78398"
+    },
+    {
+      "bytes": 3542976,
+      "lazy": true,
+      "path": "tracks/holiznacc0-love-love-love.m4a",
+      "sha256": "e14c061d6875e4b52707055830434c389b2bfa004a5b75f617251e6280a6ce76"
+    },
+    {
+      "bytes": 3181,
+      "path": "tracks/loyalty-freak-music-after-party.beats.json",
+      "sha256": "492c84a98ee206e92a09a9f323e1df5c4416a6c5a68e003c6aafd7752457a3f6"
+    },
+    {
+      "bytes": 3578264,
+      "lazy": true,
+      "path": "tracks/loyalty-freak-music-after-party.m4a",
+      "sha256": "91841d8a3698268ef93a8facd8cccad245860bb9ea7c8049500578b387f7b807"
+    },
+    {
+      "bytes": 2533,
+      "path": "tracks/play-house-dj-play-house.beats.json",
+      "sha256": "ca446270c1c4c4c524c1e8c175f5681902d19a65011d790e540ff01f3c86df78"
+    },
+    {
+      "bytes": 2620485,
+      "lazy": true,
+      "path": "tracks/play-house-dj-play-house.m4a",
+      "sha256": "eaf8d0446cd02c89b580419ed145da020670c643bf9528c2a2bfddf00c041f53"
+    },
+    {
+      "bytes": 3422,
+      "path": "tracks/play-house-dj.beats.json",
+      "sha256": "a9dabe00d5305ae53ce45d1acd47517a90ca794bfd39f6647c1e0785a1a553e2"
+    },
+    {
+      "bytes": 3638378,
+      "lazy": true,
+      "path": "tracks/play-house-dj.m4a",
+      "sha256": "44a8bf82918af62ef0c1043f715daed1ff81ff26d848faae7064e450c74f8c76"
+    },
+    {
+      "bytes": 2444,
+      "path": "tracks/play-house-garden.beats.json",
+      "sha256": "96c70199362423d409d85c93d5c0914e0f1fcb82255ef7af518a153454df0ccf"
+    },
+    {
+      "bytes": 2564340,
+      "lazy": true,
+      "path": "tracks/play-house-garden.m4a",
+      "sha256": "41165dba93c4e8854bb56756b0b41a16e45d52873e6f0b49ad1691149d91b58c"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "morning-session",
+  "name": "Morning session",
+  "description": "A training montage of kit and equipment for a fast track: a typed time and a dropping title, three sets that each open on a snap-cut speed ramp with a set chip, a slammed rep count and a punch, two quick cuts with shakes.",
+  "category": "fitness",
+  "tags": ["beatsync"],
+  "pro": true,
+  "canvas": "9:16",
+  "bpm": 160.6,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "tungsten",
+  "look": {"filter": "nowframe.filter.amber-drama", "amount": 35, "contrast": 15, "grain": 8},
+  "music": {"track": "nowframe.music.holiznacc0-childs-play", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Morning session", "kicker": "Three sets"},
+  "sections": [
+    { "id": "session", "slots": [
+        {"id": "warmup", "label": "Warm-up", "beats": 4, "min": 0.82, "max": 2.99, "sample": "sport", "motion": "push"},
+        {"id": "set-1", "label": "Set 1", "beats": 3, "min": 0.61, "max": 2.25, "keepsSpeed": true, "speed": "nowframe.speed.snapCut", "sample": "sport", "prefers": "video", "motion": "punch"},
+        {"id": "set-1-a", "label": "Set 1 detail 1", "beats": 1, "min": 0.3, "max": 1.2, "sample": "sport", "motion": "punch"},
+        {"id": "set-1-b", "label": "Set 1 detail 2", "beats": 1, "min": 0.3, "max": 1.2, "sample": "texture", "motion": "punch", "zoom": 1.06},
+        {"id": "set-2", "label": "Set 2", "beats": 3, "min": 0.61, "max": 2.25, "keepsSpeed": true, "speed": "nowframe.speed.snapCut", "sample": "sport", "prefers": "video", "motion": "punch"},
+        {"id": "set-2-a", "label": "Set 2 detail 1", "beats": 1, "min": 0.3, "max": 1.2, "sample": "sport", "motion": "punch"},
+        {"id": "set-2-b", "label": "Set 2 detail 2", "beats": 1, "min": 0.3, "max": 1.2, "sample": "texture", "motion": "punch", "zoom": 1.06},
+        {"id": "set-3", "label": "Set 3", "beats": 3, "min": 0.61, "max": 2.25, "keepsSpeed": true, "speed": "nowframe.speed.snapCut", "sample": "sport", "prefers": "video", "motion": "punch"},
+        {"id": "set-3-a", "label": "Set 3 detail 1", "beats": 1, "min": 0.3, "max": 1.2, "sample": "sport", "motion": "punch"},
+        {"id": "set-3-b", "label": "Set 3 detail 2", "beats": 1, "min": 0.3, "max": 1.2, "sample": "texture", "motion": "punch", "zoom": 1.06},
+        {"id": "cooldown", "label": "Cool-down", "beats": 4, "min": 0.82, "max": 2.99, "hold": true, "sample": "sport", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "camerashake", "anchor": "cut", "every": 2, "seconds": 0.2, "from": "set-1", "through": "set-3-b"},
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "offset": 1, "seconds": 0.12, "from": "set-1", "through": "set-3-b"}
+  ],
+  "texts": [
+    {"text": "5:30 AM", "label": "Time", "style": "label.chip", "size": 42, "animation": "typewriter", "slot": "warmup", "at": 0.5, "beats": 3.5, "y": -0.31},
+    {"text": "Morning\nsession", "label": "Title", "style": "title.big", "animation": "drop-words", "slot": "warmup", "at": 0.5, "beats": 3.5, "y": -0.2},
+    {"text": "SET 1", "style": "label.gel", "size": 42, "animation": "cut", "slot": "set-1", "through": "set-1-b", "y": -0.31},
+    {"text": "12", "label": "Reps 1", "style": "number.huge", "animation": "slam", "inSeconds": 0.2, "outSeconds": 0.1, "slot": "set-1", "y": -0.18},
+    {"text": "REPS", "style": "kicker.mono", "size": 36, "animation": "cut", "color": "tungsten", "slot": "set-1", "y": -0.07},
+    {"text": "SET 2", "style": "label.gel", "size": 42, "animation": "cut", "slot": "set-2", "through": "set-2-b", "y": -0.31},
+    {"text": "10", "label": "Reps 2", "style": "number.huge", "animation": "slam", "inSeconds": 0.2, "outSeconds": 0.1, "slot": "set-2", "y": -0.18},
+    {"text": "REPS", "style": "kicker.mono", "size": 36, "animation": "cut", "color": "tungsten", "slot": "set-2", "y": -0.07},
+    {"text": "SET 3", "style": "label.gel", "size": 42, "animation": "cut", "slot": "set-3", "through": "set-3-b", "y": -0.31},
+    {"text": "8", "label": "Reps 3", "style": "number.huge", "animation": "slam", "inSeconds": 0.2, "outSeconds": 0.1, "slot": "set-3", "y": -0.18},
+    {"text": "REPS", "style": "kicker.mono", "size": 36, "animation": "cut", "color": "tungsten", "slot": "set-3", "y": -0.07},
+    {"text": "Done before breakfast", "label": "Sign-off", "style": "caption.medium", "animation": "words", "slot": "cooldown", "at": 0.5, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.punch", "slot": "set-1", "at": 0, "gain": 0.4},
+    {"sound": "nowframe.sound.punch", "slot": "set-2", "at": 0, "gain": 0.4},
+    {"sound": "nowframe.sound.punch", "slot": "set-3", "at": 0, "gain": 0.4}
+  ]
+}

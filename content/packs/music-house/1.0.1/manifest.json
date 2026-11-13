@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "music-house",
+  "kind": "sound",
+  "version": "1.0.1",
+  "displayName": "House music",
+  "premium": false,
+  "categories": [
+    {
+      "id": "house-electronic",
+      "displayName": "House"
+    }
+  ],
+  "items": [
+    {
+      "id": "nowframe.music.holiznacc0-love-love-love",
+      "displayName": "Love Love Love",
+      "category": "house-electronic",
+      "asset": "tracks/holiznacc0-love-love-love.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "HoliznaCC0",
+        "genre": "House / Electronic",
+        "mood": "house-electronic",
+        "bpm": "115.1",
+        "duration": "175.2",
+        "previewStart": "15.8",
+        "sourceTitle": "Love Love Love",
+        "sourceURL": "https://freemusicarchive.org/music/holiznacc0/power-pop/love-love-love/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/holiznacc0-love-love-love.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Love Love Love” by HoliznaCC0, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/holiznacc0/power-pop/love-love-love/"
+      }
+    },
+    {
+      "id": "nowframe.music.loyalty-freak-music-after-party",
+      "displayName": "After Party",
+      "category": "house-electronic",
+      "asset": "tracks/loyalty-freak-music-after-party.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Loyalty Freak Music",
+        "genre": "House / Electronic",
+        "mood": "house-electronic",
+        "bpm": "120.1",
+        "duration": "177.1",
+        "previewStart": "18.5",
+        "sourceTitle": "After Party",
+        "sourceURL": "https://freemusicarchive.org/music/Loyalty_Freak_Music/ROBOT_DANCE_/Loyalty_Freak_Music_-_ROBOT_DANCE__-_03_After_Party/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/loyalty-freak-music-after-party.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“After Party” by Loyalty Freak Music, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/Loyalty_Freak_Music/ROBOT_DANCE_/Loyalty_Freak_Music_-_ROBOT_DANCE__-_03_After_Party/"
+      }
+    },
+    {
+      "id": "nowframe.music.play-house-dj",
+      "displayName": "Dj",
+      "category": "house-electronic",
+      "asset": "tracks/play-house-dj.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Play House",
+        "genre": "House / Electronic",
+        "mood": "house-electronic",
+        "bpm": "124.7",
+        "duration": "180",
+        "previewStart": "57.8",
+        "sourceTitle": "Dj",
+        "sourceURL": "https://freemusicarchive.org/music/play-house/songs-1/dj/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/play-house-dj.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Dj” by Play House, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/play-house/songs-1/dj/"
+      }
+    },
+    {
+      "id": "nowframe.music.play-house-dj-play-house",
+      "displayName": "DJ Play House",
+      "category": "house-electronic",
+      "asset": "tracks/play-house-dj-play-house.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Play House",
+        "genre": "House / Electronic",
+        "mood": "house-electronic",
+        "bpm": "126.1",
+        "duration": "129.5",
+        "previewStart": "23.2",
+        "sourceTitle": "DJ Play House",
+        "sourceURL": "https://freemusicarchive.org/music/play-house/music/dj-play-house/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/play-house-dj-play-house.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“DJ Play House” by Play House, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/play-house/music/dj-play-house/"
+      }
+    },
+    {
+      "id": "nowframe.music.play-house-garden",
+      "displayName": "Garden",
+      "category": "house-electronic",
+      "asset": "tracks/play-house-garden.m4a",
+      "premium": false,
+      "tags": [
+        "music"
+      ],
+      "attributes": {
+        "artist": "Play House",
+        "genre": "House / Electronic",
+        "mood": "house-electronic",
+        "bpm": "124.1",
+        "duration": "126.7",
+        "previewStart": "77.3",
+        "sourceTitle": "Garden",
+        "sourceURL": "https://freemusicarchive.org/music/play-house/music/garden-3/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "dateChecked": "2026-11-13",
+        "beats": "tracks/play-house-garden.beats.json"
+      },
+      "license": {
+        "name": "CC0-1.0",
+        "copyright": "“Garden” by Play House, dedicated to the public domain (CC0 1.0). Source: https://freemusicarchive.org/music/play-house/music/garden-3/"
+      }
+    }
+  ],
+  "_contentHash": "cd40d00dee0f617d337cfad80e15244a887a793dd6bd46ecbcb604d560b8f4bc"
+}

@@ -1,0 +1,40 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "cut",
+      "duration" : 0.12,
+      "effectID" : "nowframe.fx.flash",
+      "every" : 2,
+      "fromSlot" : 1,
+      "offset" : 0,
+      "throughSlot" : 8
+    }
+  ],
+  "bpm" : 77,
+  "clipSlotCount" : 11,
+  "contentHash" : "90c060225542f75b6052e7b6efcc0d79ebc85840fa44a1aababb741c9c1bc23d",
+  "createdAt" : 1767225600000,
+  "duration" : 14.808333333333334,
+  "id" : "nowframe.template.suspect-profile",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 827960,
+  "minAppBuild" : 9,
+  "name" : "Suspect profile",
+  "requires" : [
+    "effect.flash",
+    "filter.noir-fade",
+    "template.beatFit",
+    "textanim.in.typewriter",
+    "textanim.in.zoomWords"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 20,
+  "tags" : [
+    "beatsync"
+  ],
+  "theme" : "pets"
+}

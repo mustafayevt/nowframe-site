@@ -1,0 +1,45 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 1,
+      "fromSlot" : 1,
+      "offset" : 0,
+      "throughSlot" : 4
+    }
+  ],
+  "bpm" : 118.3,
+  "clipSlotCount" : 9,
+  "contentHash" : "d5ec575490bbc31db1ed0facf0039dd3167fdf2ddec2466b6c6dc3e55fc091a8",
+  "createdAt" : 1767225600000,
+  "duration" : 10.141666666666667,
+  "id" : "nowframe.template.fast-recipe",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : false,
+  "isStarter" : true,
+  "mediaBytes" : 739598,
+  "minAppBuild" : 9,
+  "name" : "Fast recipe",
+  "requires" : [
+    "effect.zoompulse",
+    "filter.fresh-bite",
+    "template.beatFit",
+    "textanim.in.fadeLetters",
+    "textanim.in.riseLetters",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord",
+    "transition.circle-reveal",
+    "transition.slide-left",
+    "transition.zoom-in"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 20,
+  "tags" : [
+    "beatsync"
+  ],
+  "theme" : "food"
+}
