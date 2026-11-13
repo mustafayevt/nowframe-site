@@ -1,0 +1,52 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "cut",
+      "duration" : 0.2,
+      "effectID" : "nowframe.fx.camerashake",
+      "every" : 2,
+      "fromSlot" : 1,
+      "offset" : 0,
+      "throughSlot" : 9
+    },
+    {
+      "anchor" : "beat",
+      "duration" : 0.12,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 1,
+      "offset" : 1,
+      "throughSlot" : 9
+    }
+  ],
+  "bpm" : 160.6,
+  "clipSlotCount" : 11,
+  "contentHash" : "01f807ada5057b4fcb8e9cfa100380193f1a3cc31f0bc09d9c7ca7fb970de871",
+  "createdAt" : 1767225600000,
+  "duration" : 8.59,
+  "id" : "nowframe.template.morning-session",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 788532,
+  "minAppBuild" : 9,
+  "name" : "Morning session",
+  "requires" : [
+    "effect.camerashake",
+    "effect.zoompulse",
+    "filter.amber-drama",
+    "template.beatFit",
+    "textanim.in.dropWords",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord",
+    "textanim.in.zoomWords"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 18,
+  "tags" : [
+    "beatsync"
+  ],
+  "theme" : "fitness"
+}

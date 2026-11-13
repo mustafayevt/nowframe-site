@@ -1,0 +1,42 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.12,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 1,
+      "offset" : 1,
+      "throughSlot" : 6
+    }
+  ],
+  "bpm" : 120.2,
+  "clipSlotCount" : 9,
+  "contentHash" : "50e1cf5c551f8aac124576ceaaac9d1046979bb60056b3816e15b2bcb1bad052",
+  "createdAt" : 1767225600000,
+  "duration" : 8.491666666666667,
+  "id" : "nowframe.template.zoomies",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : false,
+  "isStarter" : true,
+  "mediaBytes" : 779698,
+  "minAppBuild" : 9,
+  "name" : "Zoomies",
+  "requires" : [
+    "effect.zoompulse",
+    "filter.warm",
+    "template.beatFit",
+    "textanim.in.fadeLetters",
+    "textanim.in.popLetters",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 14,
+  "tags" : [
+    "beatsync"
+  ],
+  "theme" : "pets"
+}

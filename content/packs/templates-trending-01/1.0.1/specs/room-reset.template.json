@@ -1,0 +1,44 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "room-reset",
+  "name": "Room reset",
+  "description": "A before-and-after for a room, desk or shelf: a washed-out 'before' that speeds up into three quick process cuts, a flash on the beat into the full-colour 'after' with a shake, two detail hits and a held final look.",
+  "category": "makeover",
+  "tags": ["beatsync"],
+  "pro": false,
+  "canvas": "9:16",
+  "bpm": 93.9,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "moss",
+  "look": {"filter": "nowframe.filter.fresh-bite", "amount": 25, "contrast": 5},
+  "music": {"track": "nowframe.music.wax-lyricist-the-brass-brigade", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Room reset", "kicker": "Before and after"},
+  "sections": [
+    { "id": "reset", "slots": [
+        {"id": "before", "label": "Before", "beats": 4, "min": 1.4, "max": 5.12, "keepsSpeed": true, "speed": "nowframe.speed.burstOut", "sample": "home", "prefers": "video", "motion": "still", "look": {"filter": "nowframe.filter.matte", "amount": 70, "saturation": -45}},
+        {"id": "process-1", "label": "Process 1", "beats": 1, "min": 0.35, "max": 1.28, "sample": "home", "motion": "punch"},
+        {"id": "process-2", "label": "Process 2", "beats": 1, "min": 0.35, "max": 1.28, "sample": "home", "motion": "punch"},
+        {"id": "process-3", "label": "Process 3", "beats": 1, "min": 0.35, "max": 1.28, "sample": "home", "motion": "punch", "cut": {"transition": "nowframe.transition.flash", "beats": 0.25}},
+        {"id": "after", "label": "After", "beats": 4, "min": 1.4, "max": 5.12, "sample": "home", "motion": "punch"},
+        {"id": "detail-1", "label": "Detail 1", "beats": 1, "min": 0.35, "max": 1.28, "sample": "home", "motion": "punch"},
+        {"id": "detail-2", "label": "Detail 2", "beats": 1, "min": 0.35, "max": 1.28, "sample": "home", "motion": "punch"},
+        {"id": "final", "label": "Final look", "beats": 3, "min": 1.05, "max": 3.84, "hold": true, "sample": "home", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "camerashake", "anchor": "beat", "every": 4, "seconds": 0.3, "from": "after", "through": "after"},
+    {"effect": "zoompulse", "anchor": "beat", "every": 1, "seconds": 0.15, "from": "detail-1", "through": "detail-2"}
+  ],
+  "texts": [
+    {"text": "BEFORE", "label": "Before label", "style": "label.chip", "size": 42, "animation": "cut", "slot": "before", "y": -0.31},
+    {"text": "This room needed help", "label": "Before caption", "style": "caption.chip", "animation": "words", "slot": "before", "at": 0.5, "beats": 3, "y": -0.23},
+    {"chip": "ink", "text": "RESETTING...", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "process-1", "through": "process-3", "y": -0.31},
+    {"text": "After", "label": "Reveal", "style": "title.big", "animation": "pop", "slot": "after", "y": -0.22},
+    {"chip": "ink", "text": "Worth every minute", "label": "Sign-off", "style": "quote.serif", "size": 60, "animation": "reveal", "slot": "final", "at": 0.5, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.whoosh", "slot": "process-1", "at": 0, "gain": 0.3},
+    {"sound": "nowframe.sound.drop", "slot": "after", "at": 0, "gain": 0.45}
+  ]
+}

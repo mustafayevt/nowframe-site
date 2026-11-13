@@ -1,0 +1,54 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "suspect-profile",
+  "name": "Suspect profile",
+  "description": "A noir case file on a pet: a slammed title with a red recording dot, four pieces of evidence laid out as prints with a shutter and a typed fact chip, a freeze-frame 'last seen' and a slammed verdict.",
+  "category": "pets",
+  "tags": ["beatsync"],
+  "pro": true,
+  "canvas": "9:16",
+  "bpm": 77,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "graphite",
+  "look": {},
+  "music": {"track": "nowframe.music.koi-discovery-the-black-cat-mask", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Suspect profile", "kicker": "Case file"},
+  "sections": [
+    { "id": "case", "slots": [
+        {"id": "opener", "label": "Opener", "beats": 2, "min": 0.85, "max": 3.12, "sample": "pets", "motion": "punch", "look": {"filter": "nowframe.filter.noir-fade", "amount": 35, "grain": 4}},
+        {"id": "evidence-1", "label": "Evidence 1", "beats": 2, "min": 0.85, "max": 3.12, "sample": "pets", "prefers": "photo", "motion": "print"},
+        {"id": "clip-1", "label": "Clip 1", "beats": 1, "min": 0.42, "max": 1.56, "sample": "pets", "motion": "punch", "look": {"filter": "nowframe.filter.noir-fade", "amount": 35, "grain": 4}},
+        {"id": "evidence-2", "label": "Evidence 2", "beats": 2, "min": 0.85, "max": 3.12, "sample": "pets", "prefers": "photo", "motion": "print"},
+        {"id": "clip-2", "label": "Clip 2", "beats": 1, "min": 0.42, "max": 1.56, "sample": "home", "motion": "punch", "look": {"filter": "nowframe.filter.noir-fade", "amount": 35, "grain": 4}},
+        {"id": "evidence-3", "label": "Evidence 3", "beats": 2, "min": 0.85, "max": 3.12, "sample": "pets", "prefers": "photo", "motion": "print"},
+        {"id": "clip-3", "label": "Clip 3", "beats": 1, "min": 0.42, "max": 1.56, "sample": "pets", "motion": "punch", "look": {"filter": "nowframe.filter.noir-fade", "amount": 35, "grain": 4}},
+        {"id": "evidence-4", "label": "Evidence 4", "beats": 2, "min": 0.85, "max": 3.12, "sample": "pets", "prefers": "photo", "motion": "print"},
+        {"id": "clip-4", "label": "Clip 4", "beats": 1, "min": 0.42, "max": 1.56, "sample": "home", "motion": "punch", "look": {"filter": "nowframe.filter.noir-fade", "amount": 35, "grain": 4}},
+        {"id": "last-seen", "label": "Last seen", "beats": 2, "min": 0.85, "max": 3.12, "keepsSpeed": true, "speed": "nowframe.speed.freezeShot", "sample": "pets", "prefers": "video", "motion": "still", "look": {"filter": "nowframe.filter.noir-fade", "amount": 35, "grain": 4}},
+        {"id": "at-large", "label": "At large", "beats": 3, "min": 1.28, "max": 4.68, "hold": true, "sample": "home", "motion": "pull", "look": {"filter": "nowframe.filter.noir-fade", "amount": 35, "grain": 4}}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "flash", "anchor": "cut", "every": 2, "seconds": 0.12, "from": "evidence-1", "through": "clip-4"}
+  ],
+  "texts": [
+    {"text": "SUSPECT\nPROFILE", "label": "Title", "style": "title.big", "animation": "slam", "slot": "opener", "at": 0.25, "y": -0.2},
+    {"chip": "ink", "text": "CASE NO. 07", "label": "Case number", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "opener", "at": 0.5, "y": -0.07},
+    {"text": "NAME: MOCHI", "label": "Fact 1", "style": "label.chip", "size": 42, "animation": "typewriter", "slot": "evidence-1", "through": "clip-1", "y": -0.31},
+    {"text": "AGE: 3", "label": "Fact 2", "style": "label.chip", "size": 42, "animation": "typewriter", "slot": "evidence-2", "through": "clip-2", "y": -0.31},
+    {"text": "CHARGE: CHAOS", "label": "Fact 3", "style": "label.chip", "size": 36, "animation": "typewriter", "slot": "evidence-3", "through": "clip-3", "y": -0.31},
+    {"text": "ALIBI: NONE", "label": "Fact 4", "style": "label.chip", "size": 42, "animation": "typewriter", "slot": "evidence-4", "through": "clip-4", "y": -0.31},
+    {"text": "SEEN: HERE", "label": "Last seen", "style": "label.gel", "size": 36, "animation": "typewriter", "slot": "last-seen", "y": -0.31},
+    {"text": "Still at large", "label": "Verdict", "style": "title.display", "animation": "slam", "slot": "at-large", "at": 0.5, "y": -0.22}
+  ],
+  "shapes": [
+    {"shape": "ellipse", "color": "tally", "slot": "opener", "at": 0.25, "x": 0, "y": -0.31, "scale": 0.04}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.shutter", "slot": "evidence-1", "at": 0, "gain": 0.4},
+    {"sound": "nowframe.sound.shutter", "slot": "evidence-2", "at": 0, "gain": 0.4},
+    {"sound": "nowframe.sound.shutter", "slot": "evidence-3", "at": 0, "gain": 0.4},
+    {"sound": "nowframe.sound.shutter", "slot": "evidence-4", "at": 0, "gain": 0.4}
+  ]
+}

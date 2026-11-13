@@ -1,0 +1,44 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "build-and-drop",
+  "name": "Build and drop",
+  "description": "Tension, then release: three slow mono shots under a typed tease and a riser, a zoom-blur into eight full-colour one-beat photos with a boom, a slammed title and shakes on the bar.",
+  "category": "photodump",
+  "tags": ["beatsync", "photodump"],
+  "pro": true,
+  "canvas": "9:16",
+  "bpm": 122.7,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "rose",
+  "look": {"filter": "nowframe.filter.vivid", "amount": 35, "contrast": 6},
+  "music": {"track": "nowframe.music.trg-banks-night-sun", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Build and drop", "kicker": "Wait for it"},
+  "sections": [
+    { "id": "build", "slots": [
+        {"id": "build-1", "label": "Build 1", "beats": 2, "min": 0.53, "max": 1.96, "sample": "city", "motion": "push", "look": {"filter": "nowframe.filter.noir-fade", "amount": 80, "contrast": 10}},
+        {"id": "build-2", "label": "Build 2", "beats": 2, "min": 0.53, "max": 1.96, "sample": "night", "motion": "push", "zoom": 1.04, "look": {"filter": "nowframe.filter.noir-fade", "amount": 80, "contrast": 10}},
+        {"id": "build-3", "label": "Build 3", "beats": 2, "min": 0.53, "max": 1.96, "sample": "city", "motion": "push", "zoom": 1.08, "cut": {"transition": "nowframe.transition.zoom-blur", "beats": 0.5}, "look": {"filter": "nowframe.filter.noir-fade", "amount": 80, "contrast": 10}}
+      ] },
+    { "id": "drop", "repeat": 8, "slots": [
+        {"label": "Drop {n}", "beats": 1, "min": 0.3, "max": 1.2, "sample": "any", "prefers": "photo", "motion": "punch"}
+      ] },
+    { "id": "end", "slots": [
+        {"id": "outro", "label": "Outro", "beats": 4, "min": 1.07, "max": 3.92, "hold": true, "sample": "nature", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "flash", "anchor": "cut", "every": 4, "seconds": 0.12, "section": "drop"},
+    {"effect": "camerashake", "anchor": "beat", "every": 4, "seconds": 0.25, "section": "drop"},
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "offset": 1, "seconds": 0.15, "section": "drop"}
+  ],
+  "texts": [
+    {"text": "Wait for it", "label": "Tease", "style": "caption.chip", "animation": "words", "slot": "build-1", "at": 0.5, "through": "build-3", "y": -0.2},
+    {"text": "WEEKEND", "label": "Title", "style": "title.big", "animation": "slam", "slot": "drop-1", "beats": 3, "y": -0.2},
+    {"chip": "ink", "text": "Same time next week?", "label": "Sign-off", "style": "quote.serif", "size": 57, "animation": "reveal", "slot": "outro", "at": 0.5, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.rise", "slot": "build-2", "at": 0, "gain": 0.4},
+    {"sound": "nowframe.sound.boom", "slot": "drop-1", "at": 0, "gain": 0.5}
+  ]
+}

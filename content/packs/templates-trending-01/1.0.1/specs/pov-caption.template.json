@@ -1,0 +1,44 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "pov-caption",
+  "name": "POV caption",
+  "description": "A POV caption post: one line types in word by word and stays as the header, while four moments each add a tungsten chip on the beat, a dissolve into a held last shot and a serif sign-off.",
+  "category": "text",
+  "tags": ["beatsync", "text"],
+  "pro": false,
+  "canvas": "9:16",
+  "bpm": 80.2,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "iris",
+  "look": {"filter": "nowframe.filter.pastel", "amount": 30, "fade": 8, "grain": 8},
+  "music": {"track": "nowframe.music.holiznacc0-summer-break", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "POV caption", "kicker": "Caption post"},
+  "sections": [
+    { "id": "pov", "slots": [
+        {"id": "opener", "label": "Opener", "beats": 4, "min": 1.64, "max": 5.99, "sample": "home", "motion": "push", "cut": {"transition": "nowframe.transition.zoom-in", "beats": 0.5}},
+        {"id": "moment-1", "label": "Moment 1", "beats": 2, "min": 0.82, "max": 3.0, "sample": "home", "motion": "punch"},
+        {"id": "moment-2", "label": "Moment 2", "beats": 2, "min": 0.82, "max": 3.0, "sample": "food", "motion": "punch"},
+        {"id": "moment-3", "label": "Moment 3", "beats": 2, "min": 0.82, "max": 3.0, "sample": "texture", "motion": "punch"},
+        {"id": "moment-4", "label": "Moment 4", "beats": 2, "min": 0.82, "max": 3.0, "sample": "nature", "motion": "punch", "cut": {"transition": "nowframe.transition.dissolve", "beats": 1}},
+        {"id": "last", "label": "Last shot", "beats": 4, "min": 1.64, "max": 5.99, "hold": true, "sample": "nature", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "seconds": 0.2, "from": "moment-1", "through": "moment-4"}
+  ],
+  "texts": [
+    {"text": "POV: you finally took\nthe whole day off", "label": "POV line", "style": "caption.chip", "animation": "words", "slot": "opener", "at": 0.25, "through": "last", "y": -0.27},
+    {"text": "NO ALARMS", "label": "Moment 1", "style": "label.gel", "size": 42, "animation": "slide-up", "slot": "moment-1", "y": -0.15},
+    {"text": "LONG LUNCH", "label": "Moment 2", "style": "label.gel", "size": 42, "animation": "slide-up", "slot": "moment-2", "y": -0.15},
+    {"text": "ZERO EMAILS", "label": "Moment 3", "style": "label.gel", "size": 42, "animation": "slide-up", "slot": "moment-3", "y": -0.15},
+    {"text": "GOLDEN HOUR", "label": "Moment 4", "style": "label.gel", "size": 36, "animation": "slide-up", "slot": "moment-4", "y": -0.15},
+    {"chip": "ink", "text": "Ten out of ten", "label": "Sign-off", "style": "quote.serif", "size": 60, "animation": "reveal", "slot": "last", "at": 0.5, "y": 0.14}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.pop", "slot": "moment-1", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "moment-2", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "moment-3", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "moment-4", "at": 0, "gain": 0.25}
+  ]
+}

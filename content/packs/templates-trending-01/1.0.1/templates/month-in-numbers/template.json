@@ -1,0 +1,45 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.15,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 0,
+      "offset" : 1,
+      "throughSlot" : 7
+    }
+  ],
+  "bpm" : 99.2,
+  "clipSlotCount" : 9,
+  "contentHash" : "c7896091261a21642f7b1d6733b63cfb90aee4a4a69aebd4a49b223f791e6adb",
+  "createdAt" : 1767225600000,
+  "duration" : 11.495,
+  "id" : "nowframe.template.month-in-numbers",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 756431,
+  "minAppBuild" : 9,
+  "name" : "Month in numbers",
+  "requires" : [
+    "effect.zoompulse",
+    "filter.teal-ember",
+    "template.beatFit",
+    "textanim.in.dropWords",
+    "textanim.in.fadeLetters",
+    "textanim.in.typewriter",
+    "textanim.in.zoomWords",
+    "transition.flash"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 20,
+  "tags" : [
+    "beatsync",
+    "recap",
+    "text"
+  ],
+  "theme" : "recap"
+}

@@ -1,0 +1,42 @@
+{
+  "aspect" : "9:16",
+  "beatEffects" : [
+    {
+      "anchor" : "beat",
+      "duration" : 0.12,
+      "effectID" : "nowframe.fx.zoompulse",
+      "every" : 2,
+      "fromSlot" : 1,
+      "offset" : 0,
+      "throughSlot" : 6
+    }
+  ],
+  "bpm" : 85.4,
+  "clipSlotCount" : 8,
+  "contentHash" : "d84077af26c2d766d88f3a32e0627bf317e5296f1eed708d692bf391927b3bc5",
+  "createdAt" : 1767225600000,
+  "duration" : 11.246666666666666,
+  "id" : "nowframe.template.storytime-beats",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : true,
+  "isStarter" : true,
+  "mediaBytes" : 709455,
+  "minAppBuild" : 9,
+  "name" : "Storytime on the beat",
+  "requires" : [
+    "effect.zoompulse",
+    "filter.mono-hi",
+    "template.beatFit",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord",
+    "textanim.in.zoomWords"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 21,
+  "tags" : [
+    "beatsync",
+    "text"
+  ],
+  "theme" : "text"
+}

@@ -1,0 +1,33 @@
+{
+  "aspect" : "9:16",
+  "bpm" : 96,
+  "clipSlotCount" : 5,
+  "contentHash" : "1b4f462d584149549f6adeb61ea6361172ae663d65921ee55c462a49d5346bde",
+  "createdAt" : 1767225600000,
+  "duration" : 15,
+  "id" : "nowframe.template.month-in-lines",
+  "isFlexible" : false,
+  "isMusicReplaceable" : true,
+  "isPremium" : false,
+  "isStarter" : true,
+  "mediaBytes" : 714915,
+  "minAppBuild" : 9,
+  "name" : "Month in four lines",
+  "requires" : [
+    "filter.film-fade",
+    "template.beatFit",
+    "textanim.in.fadeLetters",
+    "textanim.in.typewriter",
+    "textanim.in.wordByWord",
+    "transition.dissolve",
+    "transition.push"
+  ],
+  "schemaVersion" : 2,
+  "slotCount" : 13,
+  "tags" : [
+    "beatsync",
+    "recap",
+    "text"
+  ],
+  "theme" : "text"
+}

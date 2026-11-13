@@ -1,0 +1,54 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "run-log",
+  "name": "Run log",
+  "description": "A long-run diary: a typed distance and the run's name, then five miles, each with a typed split chip over two cuts and a slide into the next mile, and the total popping in over the finish.",
+  "category": "fitness",
+  "tags": ["beatsync"],
+  "pro": false,
+  "canvas": "9:16",
+  "bpm": 167.6,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "sky",
+  "look": {"filter": "nowframe.filter.cool", "amount": 30, "contrast": 8, "clarity": 10},
+  "music": {"track": "nowframe.music.ondrosik-calm-before-the-storm", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Run log", "kicker": "Five miles"},
+  "sections": [
+    { "id": "run", "slots": [
+        {"id": "start", "label": "Start line", "beats": 6, "min": 1.18, "max": 4.3, "sample": "sport", "motion": "push", "cut": {"transition": "nowframe.transition.zoom-in", "beats": 1}},
+        {"id": "mile-1", "label": "Mile 1", "beats": 3, "min": 0.59, "max": 2.15, "sample": "city", "motion": "punch"},
+        {"id": "mile-1-quick", "label": "Mile 1 quick", "beats": 2, "min": 0.39, "max": 1.44, "sample": "nature", "motion": "right", "cut": {"transition": "nowframe.transition.slide-left", "beats": 1}},
+        {"id": "mile-2", "label": "Mile 2", "beats": 3, "min": 0.59, "max": 2.15, "sample": "nature", "motion": "punch"},
+        {"id": "mile-2-quick", "label": "Mile 2 quick", "beats": 2, "min": 0.39, "max": 1.44, "sample": "water", "motion": "right", "cut": {"transition": "nowframe.transition.slide-left", "beats": 1}},
+        {"id": "mile-3", "label": "Mile 3", "beats": 3, "min": 0.59, "max": 2.15, "sample": "water", "motion": "punch"},
+        {"id": "mile-3-quick", "label": "Mile 3 quick", "beats": 2, "min": 0.39, "max": 1.44, "sample": "city", "motion": "right", "cut": {"transition": "nowframe.transition.slide-left", "beats": 1}},
+        {"id": "mile-4", "label": "Mile 4", "beats": 3, "min": 0.59, "max": 2.15, "sample": "city", "motion": "punch"},
+        {"id": "mile-4-quick", "label": "Mile 4 quick", "beats": 2, "min": 0.39, "max": 1.44, "sample": "sport", "motion": "right", "cut": {"transition": "nowframe.transition.slide-left", "beats": 1}},
+        {"id": "mile-5", "label": "Mile 5", "beats": 3, "min": 0.59, "max": 2.15, "sample": "nature", "motion": "punch"},
+        {"id": "mile-5-quick", "label": "Mile 5 quick", "beats": 2, "min": 0.39, "max": 1.44, "sample": "sport", "motion": "right"},
+        {"id": "finish", "label": "Finish", "beats": 6, "min": 1.18, "max": 4.3, "hold": true, "sample": "nature", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "zoompulse", "anchor": "beat", "every": 4, "seconds": 0.15, "from": "mile-1", "through": "mile-5-quick"}
+  ],
+  "texts": [
+    {"chip": "ink", "text": "5 MILES", "label": "Distance", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "start", "at": 1, "beats": 5, "y": -0.31},
+    {"text": "Sunday long run", "label": "Title", "style": "title.display", "animation": "rise", "slot": "start", "at": 1.5, "beats": 4.5, "y": -0.24},
+    {"text": "MILE 1 · 8:12", "label": "Mile 1 split", "style": "label.chip", "size": 36, "animation": "typewriter", "inSeconds": 0.3, "outSeconds": 0.1, "slot": "mile-1", "through": "mile-1-quick", "y": -0.31},
+    {"text": "MILE 2 · 8:05", "label": "Mile 2 split", "style": "label.chip", "size": 36, "animation": "typewriter", "inSeconds": 0.3, "outSeconds": 0.1, "slot": "mile-2", "through": "mile-2-quick", "y": -0.31},
+    {"text": "MILE 3 · 7:58", "label": "Mile 3 split", "style": "label.chip", "size": 36, "animation": "typewriter", "inSeconds": 0.3, "outSeconds": 0.1, "slot": "mile-3", "through": "mile-3-quick", "y": -0.31},
+    {"text": "MILE 4 · 8:01", "label": "Mile 4 split", "style": "label.chip", "size": 36, "animation": "typewriter", "inSeconds": 0.3, "outSeconds": 0.1, "slot": "mile-4", "through": "mile-4-quick", "y": -0.31},
+    {"text": "MILE 5 · 7:46", "label": "Mile 5 split", "style": "label.chip", "size": 36, "animation": "typewriter", "inSeconds": 0.3, "outSeconds": 0.1, "slot": "mile-5", "through": "mile-5-quick", "y": -0.31},
+    {"text": "5.0", "label": "Total", "style": "number.huge", "animation": "pop", "slot": "finish", "at": 1, "beats": 4.5, "y": -0.2},
+    {"chip": "ink", "text": "MILES DONE", "label": "Total label", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "finish", "at": 1.5, "beats": 4, "y": -0.08}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.pop", "slot": "mile-1", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "mile-2", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "mile-3", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "mile-4", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "mile-5", "at": 0, "gain": 0.25}
+  ]
+}

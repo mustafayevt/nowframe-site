@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:46:41Z",
+  "generatedAt": "2026-11-13T03:56:00Z",
   "minAppBuild": 1,
   "packs": [
     {
@@ -63,16 +63,16 @@
       "version": "1.0.1"
     },
     {
-      "bytes": 55405579,
+      "bytes": 59810374,
       "id": "templates-trending-01",
       "kind": "templates",
       "minAppBuild": 9,
       "requires": [
         "template.beatFit"
       ],
-      "sha256": "9a7fb5af9fd33a927ba8c48f55f21c0ba52cfe807f517c3cb530d355754aee2d",
-      "url": "packs/templates-trending-01/1.0.0/files.json",
-      "version": "1.0.0"
+      "sha256": "564682c4388460646b80d8b3aa65e10050089b980f01ea29b227b57cc471bde1",
+      "url": "packs/templates-trending-01/1.0.1/files.json",
+      "version": "1.0.1"
     }
   ],
   "trending": [
@@ -86,8 +86,6 @@
     "nowframe.template.storytime-beats",
     "nowframe.template.twelve-months",
     "nowframe.template.fast-recipe",
-    "nowframe.template.night-drive",
-    "nowframe.template.zoomies",
     "nowframe.template.passport-stamps",
     "nowframe.template.double-time-dump",
     "nowframe.template.pov-caption",
@@ -102,6 +100,8 @@
     "nowframe.template.cafe-crawl",
     "nowframe.template.beat-photo-dump",
     "nowframe.template.month-in-lines",
+    "nowframe.template.night-drive",
+    "nowframe.template.zoomies",
     "nowframe.template.photo-slideshow",
     "nowframe.template.trip-recap",
     "nowframe.template.day-in-life",
@@ -109,5 +109,5 @@
     "nowframe.template.product-reveal",
     "nowframe.template.birthday-bash"
   ],
-  "version": 5
+  "version": 6
 }

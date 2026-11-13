@@ -1,0 +1,47 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "night-drive",
+  "name": "Night drive",
+  "description": "A neon night edit: a speed-ramped opener under a dropping title, six one-beat street cuts through zoom blurs, a slow-motion moment with a typed time, three more cuts with split hits and a held last shot.",
+  "category": "city",
+  "tags": ["beatsync"],
+  "pro": true,
+  "canvas": "9:16",
+  "bpm": 99.8,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "iris",
+  "look": {"filter": "nowframe.filter.neon-night", "amount": 45, "grain": 10, "vignette": 20},
+  "music": {"track": "nowframe.music.zane-little-midnight-cruiser", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Night drive", "kicker": "After dark"},
+  "sections": [
+    { "id": "opener", "slots": [
+        {"id": "opener", "label": "Opener", "beats": 4, "min": 1.32, "max": 4.81, "keepsSpeed": true, "speed": "nowframe.speed.rise", "sample": "night", "prefers": "video", "motion": "still"}
+      ] },
+    { "id": "streets", "repeat": 6, "cut": {"transition": "nowframe.transition.zoom-blur", "beats": 0.25}, "slots": [
+        {"label": "Street {n}", "beats": 1, "min": 0.33, "max": 1.21, "sample": "night", "motion": "punch"}
+      ] },
+    { "id": "slow", "slots": [
+        {"id": "slow-mo", "label": "Slow-mo", "beats": 2, "min": 0.66, "max": 2.41, "keepsSpeed": true, "speed": "nowframe.speed.spotlight", "sample": "night", "prefers": "video", "motion": "push", "cut": {"transition": "nowframe.transition.flash", "beats": 0.25}}
+      ] },
+    { "id": "lights", "repeat": 3, "slots": [
+        {"label": "Lights {n}", "beats": 1, "min": 0.33, "max": 1.21, "sample": "city", "motion": "punch"}
+      ] },
+    { "id": "end", "slots": [
+        {"id": "last", "label": "Last shot", "beats": 4, "min": 1.32, "max": 4.81, "hold": true, "sample": "night", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "zoompulse", "anchor": "beat", "every": 2, "seconds": 0.15, "from": "street-1", "through": "lights-3"},
+    {"effect": "channelsplit", "anchor": "cut", "every": 3, "seconds": 0.15, "from": "street-1", "through": "lights-3"}
+  ],
+  "texts": [
+    {"chip": "ink", "text": "AFTER DARK", "label": "Kicker", "style": "kicker.mono", "size": 36, "animation": "typewriter", "slot": "opener", "at": 0.5, "beats": 3.5, "y": -0.31},
+    {"text": "Night\ndrive", "label": "Title", "style": "title.big", "animation": "drop-words", "slot": "opener", "at": 1, "beats": 3, "y": -0.2},
+    {"text": "2:14 AM", "label": "Time", "style": "label.chip", "size": 42, "animation": "typewriter", "slot": "slow-mo", "y": -0.3},
+    {"chip": "ink", "text": "The city never logs off", "label": "Sign-off", "style": "caption.medium", "animation": "words", "slot": "last", "at": 0.5, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.whoosh", "slot": "street-1", "at": 0, "gain": 0.3}
+  ]
+}

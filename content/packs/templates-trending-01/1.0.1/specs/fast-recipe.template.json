@@ -1,0 +1,54 @@
+{
+  "$schema": "nowframe.template-spec/1",
+  "id": "fast-recipe",
+  "name": "Fast recipe",
+  "description": "A quick recipe: the finished dish as the hook, four ingredients one beat each with typed name chips and pops, three method steps with numbered chips and word-by-word captions, a circle reveal into the plate.",
+  "category": "food",
+  "tags": ["beatsync"],
+  "pro": false,
+  "canvas": "9:16",
+  "bpm": 118.3,
+  "flexible": false,
+  "minAppBuild": 9,
+  "accent": "tungsten",
+  "look": {"filter": "nowframe.filter.fresh-bite", "amount": 35, "contrast": 6},
+  "music": {"track": "nowframe.music.holiznacc0-happy-dance", "start": "preview", "gain": 1.0, "fadeOut": 0.6},
+  "cover": {"from": "render", "background": "ink", "title": "Fast recipe", "kicker": "Recipe"},
+  "sections": [
+    { "id": "recipe", "slots": [
+        {"id": "hero", "label": "Finished dish", "beats": 3, "min": 0.83, "max": 3.05, "sample": "food", "motion": "punch", "cut": {"transition": "nowframe.transition.zoom-in", "beats": 0.5}},
+        {"id": "ingredient-1", "label": "Ingredient 1", "beats": 1, "min": 0.3, "max": 1.2, "sample": "food", "motion": "punch"},
+        {"id": "ingredient-2", "label": "Ingredient 2", "beats": 1, "min": 0.3, "max": 1.2, "sample": "food", "motion": "punch"},
+        {"id": "ingredient-3", "label": "Ingredient 3", "beats": 1, "min": 0.3, "max": 1.2, "sample": "food", "motion": "punch"},
+        {"id": "ingredient-4", "label": "Ingredient 4", "beats": 1, "min": 0.3, "max": 1.2, "sample": "food", "motion": "punch", "cut": {"transition": "nowframe.transition.slide-left", "beats": 0.5}},
+        {"id": "step-1", "label": "Step 1", "beats": 3, "min": 0.83, "max": 3.05, "sample": "food", "motion": "push"},
+        {"id": "step-2", "label": "Step 2", "beats": 3, "min": 0.83, "max": 3.05, "sample": "food", "motion": "right"},
+        {"id": "step-3", "label": "Step 3", "beats": 3, "min": 0.83, "max": 3.05, "sample": "food", "motion": "punch", "cut": {"transition": "nowframe.transition.circle-reveal", "beats": 1.5}},
+        {"id": "plated", "label": "Plated", "beats": 4, "min": 1.11, "max": 4.06, "hold": true, "sample": "food", "motion": "pull"}
+      ] }
+  ],
+  "beatEffects": [
+    {"effect": "zoompulse", "anchor": "beat", "every": 1, "seconds": 0.15, "from": "ingredient-1", "through": "ingredient-4"}
+  ],
+  "texts": [
+    {"chip": "ink", "text": "WEEKNIGHT DINNER", "label": "Kicker", "style": "kicker.mono", "size": 36, "animation": "typewriter", "inSeconds": 0.4, "slot": "hero", "at": 0.5, "y": -0.3},
+    {"chip": "ink", "text": "Ten-minute dinner", "label": "Dish", "style": "title.display", "animation": "rise", "inSeconds": 0.6, "outSeconds": 0.2, "slot": "hero", "at": 0.5, "y": -0.23},
+    {"text": "FRESH", "label": "Ingredient 1", "style": "label.gel", "size": 42, "animation": "typewriter", "inSeconds": 0.25, "outSeconds": 0.1, "slot": "ingredient-1", "y": -0.3},
+    {"text": "SWEET", "label": "Ingredient 2", "style": "label.gel", "size": 40, "animation": "typewriter", "inSeconds": 0.25, "outSeconds": 0.1, "slot": "ingredient-2", "y": -0.3},
+    {"text": "SAVORY", "label": "Ingredient 3", "style": "label.gel", "size": 42, "animation": "typewriter", "inSeconds": 0.25, "outSeconds": 0.1, "slot": "ingredient-3", "y": -0.3},
+    {"text": "RICH", "label": "Ingredient 4", "style": "label.gel", "size": 42, "animation": "typewriter", "inSeconds": 0.25, "outSeconds": 0.1, "slot": "ingredient-4", "y": -0.3},
+    {"text": "STEP 1", "style": "label.chip", "size": 42, "animation": "cut", "slot": "step-1", "y": -0.31},
+    {"text": "Prep it", "label": "Step 1", "style": "caption.chip", "animation": "words", "inSeconds": 0.5, "outSeconds": 0.2, "slot": "step-1", "at": 0.5, "y": -0.23},
+    {"text": "STEP 2", "style": "label.chip", "size": 42, "animation": "cut", "slot": "step-2", "y": -0.31},
+    {"text": "Cook it", "label": "Step 2", "style": "caption.chip", "animation": "words", "inSeconds": 0.5, "outSeconds": 0.2, "slot": "step-2", "at": 0.5, "y": -0.23},
+    {"text": "STEP 3", "style": "label.chip", "size": 42, "animation": "cut", "slot": "step-3", "y": -0.31},
+    {"text": "Plate it", "label": "Step 3", "style": "caption.chip", "animation": "words", "inSeconds": 0.5, "outSeconds": 0.2, "slot": "step-3", "at": 0.5, "y": -0.23},
+    {"chip": "ink", "text": "Dinner in ten", "label": "Sign-off", "style": "quote.serif", "size": 60, "animation": "reveal", "slot": "plated", "at": 0.5, "y": 0.16}
+  ],
+  "sounds": [
+    {"sound": "nowframe.sound.pop", "slot": "ingredient-1", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "ingredient-2", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "ingredient-3", "at": 0, "gain": 0.25},
+    {"sound": "nowframe.sound.pop", "slot": "ingredient-4", "at": 0, "gain": 0.25}
+  ]
+}
